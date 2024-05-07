@@ -1,0 +1,1 @@
+{"version":3,"file":"loading.component.d.ts","sources":["loading.component.d.ts"],"names":[],"mappings":";AAAA;AACA;;;AACA","sourcesContent":["export declare class LoadingComponent {\n    size: 'sm' | 'md';\n}\n"]}

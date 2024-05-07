@@ -1,0 +1,1 @@
+{"version":3,"file":"deep-fetch-property.pipe.d.ts","sources":["deep-fetch-property.pipe.d.ts"],"names":[],"mappings":"AAAA;;AACA;AACA;;;AACA","sourcesContent":["import { PipeTransform } from '@angular/core';\nexport declare class DeepFetchPropertyPipe implements PipeTransform {\n    transform(item: any, propertyPath: any): any;\n}\n"]}

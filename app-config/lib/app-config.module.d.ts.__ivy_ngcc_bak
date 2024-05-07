@@ -1,0 +1,8 @@
+import { ModuleWithProviders } from '@angular/core';
+import { WindowRefService } from '@sofico-framework/utils';
+import { AppConfig } from './types/app-config.type';
+export declare class AppConfigModule {
+    private appConfig;
+    constructor(parentModule: AppConfigModule, appConfig: AppConfig, windowRefService: WindowRefService);
+    static forRoot(config: AppConfig): ModuleWithProviders<AppConfigModule>;
+}

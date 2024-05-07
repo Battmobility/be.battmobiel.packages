@@ -1,0 +1,56 @@
+import { ElementRef, EventEmitter } from '@angular/core';
+import { ControlValueAccessor } from '@angular/forms';
+export declare class InputNumberBaseDirective implements ControlValueAccessor {
+    /**
+     * The id of the input to connect to a label tag.
+     */
+    labelForId: string;
+    /**
+     *  Determines if the input is disabled.
+     */
+    isDisabled: boolean;
+    /**
+     * The placeholder of the input.
+     */
+    placeholder: string;
+    /**
+     * Determines whether the input is in a valid state.
+     */
+    invalid: boolean;
+    /**
+     * Determines if there is a max number of decimals allowed.
+     */
+    set maxFraction(value: number);
+    /**
+     * EventEmitter that will emit the value when changed.
+     */
+    changeValue: EventEmitter<string>;
+    /**
+     * EventEmitter that will emit when control is touched.
+     */
+    touch: EventEmitter<any>;
+    inputElement: ElementRef;
+    internalValue: string;
+    propagateChange: any;
+    propagateTouch: any;
+    fractionDigits: number;
+    private regex;
+    registerOnChange(fn: any): void;
+    registerOnTouched(fn: any): void;
+    writeValue(obj: any): void;
+    onChange(value: string): void;
+    updateValueByUserInput(value: string): string;
+    onTouch(): void;
+    setDisabledState(value: boolean): void;
+    blockInputValue(): void;
+    /**
+     * Converts string to undefined, null or the original input value. The purpose is to validate whether or not it has a decimal-like structure,
+     * while preparing the return value for easy castability to a number, while preserving the input its decimal locale flexibility. Returns
+     * null if it detects emptyness. Returns the input value if it could convert it to a simple decimal-like value, not accepting scientific
+     * variables (eg. Euler's number). Thus, string validation only allows a signed floating point value, with comma or point as decimal
+     * separator, without thousand separators. Returns undefined in all other cases.
+     * @param value String value of which to retrieve a decimal-like conversion
+     */
+    toDecimal(value: string): string;
+    private buildMaxFractionRegex;
+}

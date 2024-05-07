@@ -1,0 +1,7 @@
+export declare class DateMapper {
+    stringToDate(date: string): Date;
+    fullStringToDate(date: string): Date;
+    dateToString(date: Date): string;
+    dateToTimeString(date: Date): string;
+    private getFullNumber;
+}

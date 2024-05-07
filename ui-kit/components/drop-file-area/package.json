@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/sofico-framework-ui-kit-components-drop-file-area.umd.js",
+  "module": "../../fesm2015/sofico-framework-ui-kit-components-drop-file-area.js",
+  "es2015": "../../fesm2015/sofico-framework-ui-kit-components-drop-file-area.js",
+  "esm2015": "../../esm2015/components/drop-file-area/sofico-framework-ui-kit-components-drop-file-area.js",
+  "fesm2015": "../../fesm2015/sofico-framework-ui-kit-components-drop-file-area.js",
+  "typings": "sofico-framework-ui-kit-components-drop-file-area.d.ts",
+  "metadata": "sofico-framework-ui-kit-components-drop-file-area.metadata.json",
+  "sideEffects": false,
+  "name": "@sofico-framework/ui-kit/components/drop-file-area"
+}

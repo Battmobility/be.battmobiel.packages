@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/sofico-framework-ui-kit-components-input-checkbox-tree.umd.js",
+  "module": "../../fesm2015/sofico-framework-ui-kit-components-input-checkbox-tree.js",
+  "es2015": "../../fesm2015/sofico-framework-ui-kit-components-input-checkbox-tree.js",
+  "esm2015": "../../esm2015/components/input-checkbox-tree/sofico-framework-ui-kit-components-input-checkbox-tree.js",
+  "fesm2015": "../../fesm2015/sofico-framework-ui-kit-components-input-checkbox-tree.js",
+  "typings": "sofico-framework-ui-kit-components-input-checkbox-tree.d.ts",
+  "metadata": "sofico-framework-ui-kit-components-input-checkbox-tree.metadata.json",
+  "sideEffects": false,
+  "name": "@sofico-framework/ui-kit/components/input-checkbox-tree"
+}

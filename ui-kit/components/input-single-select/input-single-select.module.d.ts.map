@@ -1,0 +1,1 @@
+{"version":3,"file":"input-single-select.module.d.ts","sources":["input-single-select.module.d.ts"],"names":[],"mappings":";;;;;;;AAAA;;;;AACA","sourcesContent":["export declare class InputSingleSelectModule {\n}\n"]}

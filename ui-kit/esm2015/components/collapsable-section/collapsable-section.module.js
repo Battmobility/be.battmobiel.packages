@@ -1,0 +1,15 @@
+import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
+import { TranslateModule } from '@ngx-translate/core';
+import { SvgIconModule } from '@sofico-framework/ui-kit/components/svg-icon';
+import { CollapsableSectionComponent } from './collapsable-section.component';
+export class CollapsableSectionModule {
+}
+CollapsableSectionModule.decorators = [
+    { type: NgModule, args: [{
+                declarations: [CollapsableSectionComponent],
+                exports: [CollapsableSectionComponent],
+                imports: [TranslateModule, CommonModule, SvgIconModule]
+            },] }
+];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY29sbGFwc2FibGUtc2VjdGlvbi5tb2R1bGUuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi8uLi8uLi9wcm9qZWN0cy9zb2ZpY28tZnJhbWV3b3JrL3VpLWtpdC9jb21wb25lbnRzL2NvbGxhcHNhYmxlLXNlY3Rpb24vY29sbGFwc2FibGUtc2VjdGlvbi5tb2R1bGUudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxFQUFFLFlBQVksRUFBRSxNQUFNLGlCQUFpQixDQUFDO0FBQy9DLE9BQU8sRUFBRSxRQUFRLEVBQUUsTUFBTSxlQUFlLENBQUM7QUFDekMsT0FBTyxFQUFFLGVBQWUsRUFBRSxNQUFNLHFCQUFxQixDQUFDO0FBQ3RELE9BQU8sRUFBRSxhQUFhLEVBQUUsTUFBTSw4Q0FBOEMsQ0FBQztBQUM3RSxPQUFPLEVBQUUsMkJBQTJCLEVBQUUsTUFBTSxpQ0FBaUMsQ0FBQztBQU85RSxNQUFNLE9BQU8sd0JBQXdCOzs7WUFMcEMsUUFBUSxTQUFDO2dCQUNSLFlBQVksRUFBRSxDQUFDLDJCQUEyQixDQUFDO2dCQUMzQyxPQUFPLEVBQUUsQ0FBQywyQkFBMkIsQ0FBQztnQkFDdEMsT0FBTyxFQUFFLENBQUMsZUFBZSxFQUFFLFlBQVksRUFBRSxhQUFhLENBQUM7YUFDeEQiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBDb21tb25Nb2R1bGUgfSBmcm9tICdAYW5ndWxhci9jb21tb24nO1xuaW1wb3J0IHsgTmdNb2R1bGUgfSBmcm9tICdAYW5ndWxhci9jb3JlJztcbmltcG9ydCB7IFRyYW5zbGF0ZU1vZHVsZSB9IGZyb20gJ0BuZ3gtdHJhbnNsYXRlL2NvcmUnO1xuaW1wb3J0IHsgU3ZnSWNvbk1vZHVsZSB9IGZyb20gJ0Bzb2ZpY28tZnJhbWV3b3JrL3VpLWtpdC9jb21wb25lbnRzL3N2Zy1pY29uJztcbmltcG9ydCB7IENvbGxhcHNhYmxlU2VjdGlvbkNvbXBvbmVudCB9IGZyb20gJy4vY29sbGFwc2FibGUtc2VjdGlvbi5jb21wb25lbnQnO1xuXG5ATmdNb2R1bGUoe1xuICBkZWNsYXJhdGlvbnM6IFtDb2xsYXBzYWJsZVNlY3Rpb25Db21wb25lbnRdLFxuICBleHBvcnRzOiBbQ29sbGFwc2FibGVTZWN0aW9uQ29tcG9uZW50XSxcbiAgaW1wb3J0czogW1RyYW5zbGF0ZU1vZHVsZSwgQ29tbW9uTW9kdWxlLCBTdmdJY29uTW9kdWxlXVxufSlcbmV4cG9ydCBjbGFzcyBDb2xsYXBzYWJsZVNlY3Rpb25Nb2R1bGUge31cbiJdfQ==

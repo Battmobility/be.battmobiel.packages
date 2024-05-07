@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/sofico-framework-ui-kit-components-search-bar.umd.js",
+  "module": "../../fesm2015/sofico-framework-ui-kit-components-search-bar.js",
+  "es2015": "../../fesm2015/sofico-framework-ui-kit-components-search-bar.js",
+  "esm2015": "../../esm2015/components/search-bar/sofico-framework-ui-kit-components-search-bar.js",
+  "fesm2015": "../../fesm2015/sofico-framework-ui-kit-components-search-bar.js",
+  "typings": "sofico-framework-ui-kit-components-search-bar.d.ts",
+  "metadata": "sofico-framework-ui-kit-components-search-bar.metadata.json",
+  "sideEffects": false,
+  "name": "@sofico-framework/ui-kit/components/search-bar"
+}

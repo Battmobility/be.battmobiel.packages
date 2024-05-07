@@ -1,0 +1,10 @@
+import { ElementRef, EventEmitter, OnDestroy, OnInit } from '@angular/core';
+export declare class InViewComponent implements OnInit, OnDestroy {
+    scrollableRef: any;
+    preloadHeight: number;
+    inView: EventEmitter<boolean>;
+    targetRef: ElementRef;
+    private intersectionObserver;
+    ngOnInit(): void;
+    ngOnDestroy(): void;
+}

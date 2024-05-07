@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/sofico-framework-ui-kit-components-simple-table-item.umd.js",
+  "module": "../../fesm2015/sofico-framework-ui-kit-components-simple-table-item.js",
+  "es2015": "../../fesm2015/sofico-framework-ui-kit-components-simple-table-item.js",
+  "esm2015": "../../esm2015/components/simple-table-item/sofico-framework-ui-kit-components-simple-table-item.js",
+  "fesm2015": "../../fesm2015/sofico-framework-ui-kit-components-simple-table-item.js",
+  "typings": "sofico-framework-ui-kit-components-simple-table-item.d.ts",
+  "metadata": "sofico-framework-ui-kit-components-simple-table-item.metadata.json",
+  "sideEffects": false,
+  "name": "@sofico-framework/ui-kit/components/simple-table-item"
+}

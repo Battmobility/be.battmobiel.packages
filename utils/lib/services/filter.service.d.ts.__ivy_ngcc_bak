@@ -1,0 +1,5 @@
+import { FilterSet } from '../types/filter-set.type';
+export declare class FilterService {
+    filterList<T>(items: T[], activeFilterSet: FilterSet[]): T[];
+    private checkIfIncluded;
+}

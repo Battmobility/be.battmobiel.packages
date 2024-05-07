@@ -1,0 +1,27 @@
+import { ChangeDetectorRef, OnDestroy, PipeTransform } from '@angular/core';
+import { DocumentRefService } from '../../services/document-ref.service';
+import { WindowRefService } from '../../services/window-ref.service';
+export declare class InfiniteScrollPipe implements PipeTransform, OnDestroy {
+    private windowRefService;
+    private documentRefService;
+    private changeDetectorRef;
+    private auditTime;
+    private preloadHeight;
+    private scheduler;
+    private elementRef;
+    private thresholdNumberOfItems;
+    private limitedDataSet;
+    private dataSet;
+    private subscription;
+    private scrollOrResize$;
+    private pageByScrollOrResize$;
+    private numberOfItems$;
+    private dataSet$;
+    constructor(windowRefService: WindowRefService, documentRefService: DocumentRefService, changeDetectorRef: ChangeDetectorRef);
+    transform(value: any[], thresholdNumberOfItems?: number, preloadHeight?: number, auditTimeValue?: number, elementRef?: HTMLElement): any;
+    ngOnDestroy(): void;
+    private getScrollOrResize$;
+    private getPageByScrollOrResize$;
+    private getNumberOfItems$;
+    private getLimitedDataSet$;
+}

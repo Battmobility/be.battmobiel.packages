@@ -1,0 +1,6 @@
+import { WindowRefService } from './window-ref.service';
+export declare class ScrollService {
+    private windowRefService;
+    constructor(windowRefService: WindowRefService);
+    scrollToTop(): void;
+}

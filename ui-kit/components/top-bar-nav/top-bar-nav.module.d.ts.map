@@ -1,0 +1,1 @@
+{"version":3,"file":"top-bar-nav.module.d.ts","sources":["top-bar-nav.module.d.ts"],"names":[],"mappings":";;;;;;;;AAAA;;;;AACA","sourcesContent":["export declare class TopBarNavModule {\n}\n"]}

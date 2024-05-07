@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/sofico-framework-ui-kit-components-chip.umd.js",
+  "module": "../../fesm2015/sofico-framework-ui-kit-components-chip.js",
+  "es2015": "../../fesm2015/sofico-framework-ui-kit-components-chip.js",
+  "esm2015": "../../esm2015/components/chip/sofico-framework-ui-kit-components-chip.js",
+  "fesm2015": "../../fesm2015/sofico-framework-ui-kit-components-chip.js",
+  "typings": "sofico-framework-ui-kit-components-chip.d.ts",
+  "metadata": "sofico-framework-ui-kit-components-chip.metadata.json",
+  "sideEffects": false,
+  "name": "@sofico-framework/ui-kit/components/chip"
+}

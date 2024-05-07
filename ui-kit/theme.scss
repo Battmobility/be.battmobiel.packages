@@ -1,0 +1,1151 @@
+// angular adds this class when opening a dialog:
+// but when using a datepicker in a dialog, while being on a page where you scrolled down, the datepicker goes of screen.
+// this prevents that, it also hides the page's scrollbars when opening a dialog
+.cdk-global-scrollblock {
+  position: static;
+  overflow: hidden;
+}
+
+// Make a link be plain, but with a focus border
+.link-plain {
+  color: inherit;
+  text-decoration: none;
+  -webkit-user-select: text;
+  -moz-select: text;
+  -ms-select: text;
+  user-select: text;
+
+  &:focus {
+    box-shadow: $btn-focus-box-shadow;
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+// default classes
+.btn-reset {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+// best used in conjunction with .btn of bootstrap
+.btn-plain {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 0; // bootstrap adds a border-radius by default
+
+  &:disabled {
+    cursor: default;
+  }
+}
+
+// for some reason btn-link has a static primary color value...
+
+.btn {
+  // this is needed because the box-shadow can be hidden because of a background
+  // see more details https://stackoverflow.com/questions/5505118/css-box-shadow-hidden-z-index-does-not-fix
+  &:focus-within {
+    position: relative;
+  }
+
+  &.btn-link {
+    color: $primary-500;
+
+    &:hover {
+      color: $primary-900;
+    }
+  }
+
+  &.btn-primary:disabled {
+    background-color: $gray-500;
+    color: $gray-700;
+    border-color: $gray-500;
+    cursor: default;
+  }
+
+  &.btn-outline-primary:disabled {
+    border-color: $gray-500;
+    color: $gray-700;
+    cursor: default;
+  }
+}
+
+// Every possible state a bootstrap btn can have, we must provide the proper fill color for our svg icon.
+// currentColor: https://css-tricks.com/currentcolor/
+@each $color, $value in $theme-colors {
+  .btn-#{$color},
+  .btn-outline-#{$color} {
+    fill: currentColor;
+
+    &:hover,
+    &:focus,
+    &.focus,
+    &.disabled,
+    &:disabled,
+    &:not(:disabled):not(.disabled):active,
+    &:not(:disabled):not(.disabled).active {
+      fill: currentColor;
+    }
+  }
+}
+
+.sof-icon-primary {
+  fill: $primary-500;
+}
+
+.sof-navbar {
+  background-color: $primary-500;
+
+  .brand {
+    background-color: $primary-500;
+  }
+}
+
+.sof-navbar-light {
+  background-color: $primary-50;
+}
+
+sof-top-bar-nav {
+  .navbar-nav {
+    .nav-item.dropdown.active,
+    .nav-item.dropdown.active-menu-item {
+      background-color: $primary-35;
+
+      .nav-link {
+        color: $primary-500;
+      }
+    }
+
+    .nav-item .nav-link {
+      color: $primary-900;
+    }
+
+    .nav-item .nav-link:hover {
+      color: $primary-400;
+    }
+  }
+
+  .dropdown-item {
+    &:hover {
+      color: $primary-400;
+      background-color: $primary-50;
+    }
+
+    &.active {
+      color: $white;
+      background-color: $primary-500;
+    }
+  }
+}
+
+sof-tab {
+  a,
+  button {
+    color: $black;
+
+    background-color: $primary-50-a-04;
+    border-color: $light-border $light-border $primary-100 $light-border;
+
+    &:focus {
+      border-bottom-color: $primary-500 !important;
+    }
+
+    &.selected {
+      background-color: $white;
+      border-bottom-color: $primary-500;
+
+      &:focus {
+        border-top-color: $primary-100;
+        border-right-color: $primary-100;
+        border-left-color: $primary-100;
+      }
+    }
+  }
+}
+
+sof-tabs {
+  .snap-right,
+  .snap-left {
+    button {
+      background-color: $white;
+    }
+  }
+}
+
+sof-wizard-nav-bar {
+  .before-active {
+    color: $primary-400;
+
+    .circle {
+      background-color: $primary-400;
+    }
+
+    .line {
+      background-color: $primary-400;
+    }
+  }
+
+  .active {
+    color: $primary-500;
+
+    .circle {
+      background-color: $primary-500;
+      border: 2px solid $primary-50;
+    }
+
+    .line {
+      background-color: $primary-500;
+    }
+  }
+}
+
+sof-expander .expander {
+  fill: $primary-400;
+
+  .label {
+    color: $primary-400;
+  }
+
+  &:hover {
+    .label {
+      color: $primary-600;
+    }
+
+    fill: $primary-600;
+  }
+}
+
+sof-top-bar-header {
+  .navbar {
+    background-color: $primary-500;
+  }
+}
+
+// ng-zorro-antd
+@import '~ng-zorro-antd/slider/style/index.min.css'; /* Import styles of the component */
+@import '~ng-zorro-antd/notification/style/index.min.css'; /* Import styles of the component */
+@import '~ng-zorro-antd/select/style/index.min.css';
+@import '~ng-zorro-antd/date-picker/style/index.min.css';
+@import '~ng-zorro-antd/time-picker/style/index.min.css';
+
+sof-input-slider {
+  .current-value-wrapper {
+    .current-value {
+      background-color: $primary-50;
+    }
+  }
+
+  .ant-slider-track {
+    background-color: $primary-400;
+  }
+
+  .ant-slider-handle {
+    border-color: $primary-500;
+  }
+
+  .ant-slider-handle:focus {
+    border-color: $primary-600;
+    box-shadow: 0 0 0 5px rgba(24, 144, 255, 0.2);
+  }
+
+  .ant-slider-handle.ant-tooltip-open {
+    border-color: $primary-700;
+  }
+
+  .ant-slider:hover .ant-slider-track {
+    background-color: $primary-600;
+  }
+
+  .ant-slider:hover .ant-slider-handle:not(.ant-tooltip-open) {
+    border-color: $primary-600;
+  }
+
+  .ant-slider-dot,
+  .ant-slider-dot-active {
+    background-color: $primary-50;
+    border-color: $primary-100;
+  }
+
+  .ant-slider-handle {
+    background-color: $primary-100;
+    border-color: $primary-500;
+  }
+}
+
+sof-input-switch {
+  .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: $primary-100;
+    border-color: $primary-100;
+  }
+
+  .custom-switch .custom-control-input:checked ~ .custom-control-label::after {
+    background-color: $primary-400;
+  }
+}
+
+.sof-toast-success {
+  background-color: $success-50;
+  color: $success-500;
+  fill: $success-500;
+}
+
+.sof-toast-error {
+  background-color: $danger-50;
+  color: $danger-500;
+  fill: $danger-500;
+}
+
+.sof-toast-warning {
+  background-color: $warning-50;
+  color: $warning-700;
+  fill: $warning-700;
+}
+
+// Custom form inputs
+
+sof-input-chips {
+  .form-control {
+    &:focus-within {
+      box-shadow: $input-focus-box-shadow;
+      border-bottom-color: $input-focus-border-color;
+      border-top-color: $input-focus-border-color;
+      border-left-color: $input-focus-border-color;
+
+      &.is-invalid {
+        border-bottom-color: $danger-500;
+        border-top-color: $danger-500;
+        border-left-color: $danger-500;
+      }
+    }
+
+    &.is-invalid:focus-within {
+      box-shadow: 0 0 0 $input-focus-width rgba($danger-500, 0.25);
+    }
+
+    &.is-invalid:focus {
+      border-bottom-color: $danger-500;
+      border-top-color: $danger-500;
+      border-left-color: $danger-500;
+    }
+  }
+}
+
+sof-input-file,
+sof-input-password {
+  .input-group {
+    input[readonly] {
+      background-color: $input-bg;
+    }
+
+    &:focus-within {
+      box-shadow: $input-focus-box-shadow;
+    }
+
+    &.is-invalid:focus-within {
+      box-shadow: 0 0 0 $input-focus-width rgba($danger-500, 0.25);
+    }
+
+    &:focus-within {
+      .form-control {
+        border-bottom-color: $input-focus-border-color;
+        border-top-color: $input-focus-border-color;
+        border-left-color: $input-focus-border-color;
+
+        &.is-invalid {
+          border-bottom-color: $danger-500;
+          border-top-color: $danger-500;
+          border-left-color: $danger-500;
+        }
+      }
+
+      .input-group-append {
+        .btn-action {
+          border-right-color: $input-focus-border-color;
+          border-bottom-color: $input-focus-border-color;
+          border-top-color: $input-focus-border-color;
+
+          &.is-invalid {
+            border-top-color: $danger-500;
+            border-bottom-color: $danger-500;
+            border-right-color: $danger-500;
+          }
+        }
+      }
+    }
+
+    .input-group-append {
+      .slide-in-btn {
+        border-top-color: $input-border-color;
+        border-bottom-color: $input-border-color;
+      }
+
+      .calender-button {
+        border-top-color: $input-border-color;
+        border-bottom-color: $input-border-color;
+        border-right-color: $input-border-color;
+      }
+
+      &.is-invalid .slide-in-btn {
+        border-top-color: $danger-500;
+        border-bottom-color: $danger-500;
+        fill: $danger-500;
+      }
+
+      &.is-invalid .calender-button {
+        border-top-color: $danger-500;
+        border-bottom-color: $danger-500;
+        border-right-color: $danger-500;
+        fill: $danger-500;
+      }
+    }
+
+    /*** To Override default values ***/
+    .form-control {
+      &:focus {
+        border-bottom-color: $input-focus-border-color;
+        border-top-color: $input-focus-border-color;
+        border-left-color: $input-focus-border-color;
+      }
+
+      &.is-invalid:focus {
+        border-bottom-color: $danger-500;
+        border-top-color: $danger-500;
+        border-left-color: $danger-500;
+      }
+    }
+  }
+}
+
+sof-input-file .btn.btn-action.is-invalid,
+sof-input-password .btn.btn-action.is-invalid {
+  sof-svg-icon {
+    fill: $danger-500;
+  }
+
+  border-top-color: $danger-500;
+  border-bottom-color: $danger-500;
+  border-right-color: $danger-500;
+}
+
+sof-simple-sheet {
+  .delete-row:hover:not:disabled {
+    fill: $danger;
+  }
+
+  .move-row:hover:not:disabled {
+    fill: $primary;
+  }
+
+  .is-invalid {
+    border-color: $danger-500;
+  }
+
+  .cell:focus:not(.is-invalid) {
+    border-color: $primary;
+  }
+
+  input {
+    background-color: transparent;
+  }
+}
+
+//  ng-zorro
+//    - single-select
+//    - multi-select
+//    - select-text-hybrid
+//    - date-picker
+//    - time-picker
+sof-input-single-select,
+sof-input-multi-select,
+sof-input-single-select-text-hybrid,
+sof-input-range-picker,
+sof-input-date-picker,
+sof-input-time-picker {
+  // needed to override the default of ng-zorro
+  .ant-select-focused {
+    &.ant-select-single,
+    &.ant-select-multiple {
+      &:not(.ant-select-customize-input) .ant-select-selector {
+        box-shadow: $input-focus-box-shadow;
+      }
+    }
+  }
+
+  .ant-picker-focused {
+    box-shadow: $input-focus-box-shadow;
+  }
+
+  // used to disable the blue border when hovering on the select
+  .ant-select:not(.ant-select-disabled):hover .ant-select-selector,
+  .ant-picker:hover {
+    border-color: #d9d9d9;
+    border-right-width: unset;
+  }
+}
+
+sof-input-single-select,
+sof-input-multi-select,
+sof-input-single-select-text-hybrid,
+sof-input-range-picker,
+sof-input-date-picker,
+sof-input-time-picker {
+  .ant-select-focused {
+    // needed to override the default of ng-zorro in case of .is-invalid
+    &.ant-select-single,
+    &.ant-select-multiple {
+      &.is-invalid:not(.ant-select-customize-input):not(.ant-select-open)
+        nz-select-top-control.ant-select-selector {
+        box-shadow: 0 0 0 $input-focus-width rgba($danger-500, 0.25);
+      }
+    }
+  }
+
+  .single-select,
+  .multi-select {
+    &:focus-within,
+    &:hover {
+      .ant-select.is-invalid:not(.ant-select-open)
+        nz-select-top-control.ant-select-selector {
+        border-color: $danger-500;
+        box-shadow: 0 0 0 $input-focus-width rgba($danger-500, 0.25);
+      }
+    }
+
+    .ant-select.is-invalid:not(.ant-select-open)
+      nz-select-top-control.ant-select-selector {
+      border-color: $danger-500;
+    }
+  }
+
+  nz-range-picker,
+  nz-date-picker,
+  nz-time-picker {
+    &.ant-picker-focused.is-invalid {
+      box-shadow: 0 0 0 $input-focus-width rgba($danger-500, 0.25);
+    }
+
+    &.is-invalid {
+      border-color: $danger-500;
+    }
+
+    &:focus-within,
+    &:hover {
+      &.is-invalid {
+        border-color: $danger-500;
+        box-shadow: 0 0 0 $input-focus-width rgba($danger-500, 0.25);
+      }
+    }
+  }
+}
+
+nz-time-picker-panel {
+  .ant-picker-footer .ant-picker-ranges {
+    .ant-picker-now a {
+      color: $primary-500;
+
+      &:hover {
+        cursor: pointer;
+        color: $primary-500;
+      }
+    }
+
+    .ant-btn {
+      display: inline-block;
+      font-family: $btn-font-family;
+      font-weight: $btn-font-weight;
+      color: $body-color;
+      text-align: center;
+      text-decoration: if($link-decoration == none, null, none);
+      white-space: $btn-white-space;
+      vertical-align: middle;
+      user-select: none;
+      background-color: transparent;
+      border: $btn-border-width solid transparent;
+      @include button-size(
+        $btn-padding-y-sm,
+        $btn-padding-x-sm,
+        $btn-font-size-sm,
+        $btn-line-height-sm,
+        $btn-border-radius-sm
+      );
+      @include transition($btn-transition);
+
+      @include hover() {
+        color: $body-color;
+        text-decoration: none;
+      }
+
+      &:focus,
+      &.focus {
+        outline: 0;
+        box-shadow: $btn-focus-box-shadow;
+      }
+
+      // Disabled comes first so active can properly restyle
+      &.disabled,
+      &:disabled {
+        opacity: $btn-disabled-opacity;
+        @include box-shadow(none);
+      }
+
+      &:not(:disabled):not(.disabled) {
+        cursor: if($enable-pointer-cursor-for-buttons, pointer, null);
+
+        &:active,
+        &.active {
+          @include box-shadow($btn-active-box-shadow);
+
+          &:focus {
+            @include box-shadow($btn-focus-box-shadow, $btn-active-box-shadow);
+          }
+        }
+      }
+    }
+
+    .ant-btn-primary {
+      @include button-variant($primary, $primary);
+    }
+  }
+}
+
+// is needed to make the ant-picker overridable for mobile designs
+@media (max-width: map-get($grid-breakpoints-max, md)) {
+  // this is needed to stop the overflow that will make the component to go out of screen
+  .cdk-overlay-container
+    .cdk-overlay-connected-position-bounding-box
+    .ant-picker-wrapper {
+    display: flex;
+    width: 0;
+  }
+
+  // needed to wrap the other month underneath the first one
+  .ant-picker-panel-container .ant-picker-panels {
+    flex-wrap: wrap;
+  }
+}
+
+sof-toggle-card {
+  .sof-card-selected {
+    background-color: $gray-100;
+    border-color: $gray-500;
+
+    .sof-icon-primary {
+      fill: $primary;
+    }
+  }
+
+  .sof-card {
+    .sof-icon-primary {
+      fill: $gray-500;
+    }
+  }
+
+  .sof-card-invalid {
+    border-color: $danger-500;
+
+    sof-svg-icon {
+      fill: $danger-500;
+    }
+
+    h5 {
+      color: $danger-500;
+    }
+  }
+}
+
+sof-progress-bar {
+  .primary {
+    background-color: $primary-100;
+  }
+
+  .danger {
+    background-color: $danger-300;
+  }
+
+  .warning {
+    background-color: $warning-300;
+  }
+
+  .gray {
+    background-color: $gray-500;
+  }
+}
+
+sof-alert {
+  .alert-info {
+    color: $primary-500;
+    background-color: $primary-50;
+    border-bottom-color: $primary-50;
+
+    .alert-icon-type,
+    .alert-icon-dismiss {
+      fill: $primary-500;
+    }
+  }
+
+  .alert-success {
+    color: $success-700;
+
+    .alert-icon-type,
+    .alert-icon-dismiss {
+      fill: $success-700;
+    }
+  }
+
+  .alert-warning {
+    color: $warning-700;
+
+    .alert-icon-type,
+    .alert-icon-dismiss {
+      fill: $warning-700;
+    }
+  }
+
+  .alert-danger {
+    color: $danger-700;
+
+    .alert-icon-type,
+    .alert-icon-dismiss {
+      fill: $danger-700;
+    }
+  }
+}
+
+sof-drop-down-menu {
+  .dropdown-item {
+    fill: $black;
+  }
+}
+
+sof-chip {
+  .chip {
+    background-color: $primary-50;
+    border-color: $primary-500;
+    color: $primary-500;
+    fill: $primary-500;
+
+    &:hover {
+      border-color: $primary-400;
+      color: $primary-400;
+      fill: $primary-400;
+    }
+  }
+
+  .disabled {
+    border-color: $primary-100;
+    color: $primary-200;
+    fill: $primary-200;
+
+    &:hover {
+      border-color: $primary-100;
+      color: $primary-200;
+      fill: $primary-200;
+    }
+  }
+
+  .unselected {
+    border-color: transparent;
+    &:hover {
+      border-color: transparent;
+    }
+  }
+}
+
+sof-search-bar {
+  .input-group-text {
+    background-color: $input-bg;
+  }
+}
+
+sof-input-chips {
+  .badge-pill-valid {
+    color: $primary;
+    background-color: $gray-300;
+  }
+
+  .badge-pill-invalid {
+    color: $danger-700;
+    border-color: $danger-600 !important;
+    background-color: $danger-50;
+  }
+}
+
+// quill
+@import '~quill/dist/quill.snow.css';
+
+sof-input-editor {
+  background-color: $white;
+
+  .is-invalid {
+    .ql-toolbar.ql-snow,
+    .ql-container.ql-snow {
+      border-color: $danger-500;
+    }
+  }
+
+  .ql-disabled {
+    background-color: $input-disabled-bg;
+  }
+}
+
+sof-vertical-steps {
+  ul {
+    li {
+      .bullet {
+        border-color: $gray-500;
+
+        &:before {
+          border-color: $gray-500;
+        }
+      }
+    }
+
+    .active {
+      .bullet {
+        fill: $success-500;
+        border-color: $success-500;
+
+        &:before {
+          border-color: inherit;
+        }
+      }
+    }
+
+    .last-active {
+      .bullet {
+        &:before {
+          border-color: $gray-500;
+        }
+      }
+    }
+  }
+}
+
+sof-drop-down {
+  .dropdown-item.active,
+  .dropdown-item:active {
+    fill: $dropdown-link-active-color;
+    background-color: $primary-500;
+  }
+
+  .nav-link {
+    fill: $navbar-dark-color;
+  }
+
+  .nav-link:hover,
+  .nav-link:focus {
+    background-color: $primary-400;
+  }
+}
+
+// When you return focus (eg. closing a dialog) to a disabled button,
+// Bootstrap will show it's default grey shadow around it indicating it is focused.
+// This behavior can only be reproduced in Firefox. Functionally the user is not able to press the button (ENTER does not do anything)
+// Since we don't want disabled buttons to be focused we remove the shadow.
+button:focus[disabled] {
+  box-shadow: none;
+}
+
+// needed for the ql-ide
+// we use this option instead of using inline-styling
+.ql-color-\#000000 {
+  color: #000000;
+}
+
+.ql-color-\#e60000 {
+  color: #e60000;
+}
+
+.ql-color-\#ff9900 {
+  color: #ff9900;
+}
+
+.ql-color-\#ffff00 {
+  color: #ffff00;
+}
+
+.ql-color-\#008a00 {
+  color: #008a00;
+}
+
+.ql-color-\#0066cc {
+  color: #0066cc;
+}
+
+.ql-color-\#9933ff {
+  color: #9933ff;
+}
+
+.ql-color-\#ffffff {
+  color: #ffffff;
+}
+
+.ql-color-\#facccc {
+  color: #facccc;
+}
+
+.ql-color-\#ffebcc {
+  color: #ffebcc;
+}
+
+.ql-color-\#ffffcc {
+  color: #ffffcc;
+}
+
+.ql-color-\#cce8cc {
+  color: #cce8cc;
+}
+
+.ql-color-\#cce0f5 {
+  color: #cce0f5;
+}
+
+.ql-color-\#ebd6ff {
+  color: #ebd6ff;
+}
+
+.ql-color-\#bbbbbb {
+  color: #bbbbbb;
+}
+
+.ql-color-\#f06666 {
+  color: #f06666;
+}
+
+.ql-color-\#ffc266 {
+  color: #ffc266;
+}
+
+.ql-color-\#ffff66 {
+  color: #ffff66;
+}
+
+.ql-color-\#66b966 {
+  color: #66b966;
+}
+
+.ql-color-\#66a3e0 {
+  color: #66a3e0;
+}
+
+.ql-color-\#c285ff {
+  color: #c285ff;
+}
+
+.ql-color-\#888888 {
+  color: #888888;
+}
+
+.ql-color-\#a10000 {
+  color: #a10000;
+}
+
+.ql-color-\#b26b00 {
+  color: #b26b00;
+}
+
+.ql-color-\#b2b200 {
+  color: #b2b200;
+}
+
+.ql-color-\#006100 {
+  color: #006100;
+}
+
+.ql-color-\#0047b2 {
+  color: #0047b2;
+}
+
+.ql-color-\#6b24b2 {
+  color: #6b24b2;
+}
+
+.ql-color-\#444444 {
+  color: #444444;
+}
+
+.ql-color-\#5c0000 {
+  color: #5c0000;
+}
+
+.ql-color-\#663d00 {
+  color: #663d00;
+}
+
+.ql-color-\#666600 {
+  color: #666600;
+}
+
+.ql-color-\#003700 {
+  color: #003700;
+}
+
+.ql-color-\#002966 {
+  color: #002966;
+}
+
+.ql-color-\#3d1466 {
+  color: #3d1466;
+}
+
+.ql-bg-\#000000 {
+  background-color: #000000;
+}
+
+.ql-bg-\#e60000 {
+  background-color: #e60000;
+}
+
+.ql-bg-\#ff9900 {
+  background-color: #ff9900;
+}
+
+.ql-bg-\#ffff00 {
+  background-color: #ffff00;
+}
+
+.ql-bg-\#008a00 {
+  background-color: #008a00;
+}
+
+.ql-bg-\#0066cc {
+  background-color: #0066cc;
+}
+
+.ql-bg-\#9933ff {
+  background-color: #9933ff;
+}
+
+.ql-bg-\#ffffff {
+  background-color: #ffffff;
+}
+
+.ql-bg-\#facccc {
+  background-color: #facccc;
+}
+
+.ql-bg-\#ffebcc {
+  background-color: #ffebcc;
+}
+
+.ql-bg-\#ffffcc {
+  background-color: #ffffcc;
+}
+
+.ql-bg-\#cce8cc {
+  background-color: #cce8cc;
+}
+
+.ql-bg-\#cce0f5 {
+  background-color: #cce0f5;
+}
+
+.ql-bg-\#ebd6ff {
+  background-color: #ebd6ff;
+}
+
+.ql-bg-\#bbbbbb {
+  background-color: #bbbbbb;
+}
+
+.ql-bg-\#f06666 {
+  background-color: #f06666;
+}
+
+.ql-bg-\#ffc266 {
+  background-color: #ffc266;
+}
+
+.ql-bg-\#ffff66 {
+  background-color: #ffff66;
+}
+
+.ql-bg-\#66b966 {
+  background-color: #66b966;
+}
+
+.ql-bg-\#66a3e0 {
+  background-color: #66a3e0;
+}
+
+.ql-bg-\#c285ff {
+  background-color: #c285ff;
+}
+
+.ql-bg-\#888888 {
+  background-color: #888888;
+}
+
+.ql-bg-\#a10000 {
+  background-color: #a10000;
+}
+
+.ql-bg-\#b26b00 {
+  background-color: #b26b00;
+}
+
+.ql-bg-\#b2b200 {
+  background-color: #b2b200;
+}
+
+.ql-bg-\#006100 {
+  background-color: #006100;
+}
+
+.ql-bg-\#0047b2 {
+  background-color: #0047b2;
+}
+
+.ql-bg-\#6b24b2 {
+  background-color: #6b24b2;
+}
+
+.ql-bg-\#444444 {
+  background-color: #444444;
+}
+
+.ql-bg-\#5c0000 {
+  background-color: #5c0000;
+}
+
+.ql-bg-\#663d00 {
+  background-color: #663d00;
+}
+
+.ql-bg-\#666600 {
+  background-color: #666600;
+}
+
+.ql-bg-\#003700 {
+  background-color: #003700;
+}
+
+.ql-bg-\#002966 {
+  background-color: #002966;
+}
+
+.ql-bg-\#3d1466 {
+  background-color: #3d1466;
+}
+
+.dropdown-menu {
+  box-shadow: 0 3px 6px -4px rgb(0 0 0 / 12%), 0 6px 16px 0 rgb(0 0 0 / 8%),
+    0 9px 28px 8px rgb(0 0 0 / 5%);
+}
+
+.dropdown-item,
+.dropdown-item:hover,
+.dropdown-item:active,
+.dropdown-item:focus {
+  fill: currentColor;
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"execute.pipe.d.ts","sources":["execute.pipe.d.ts"],"names":[],"mappings":"AAAA;;AACA;AACA;;;AACA","sourcesContent":["import { PipeTransform } from '@angular/core';\nexport declare class ExecutePipe<T, R> implements PipeTransform {\n    transform(value: T, func: (x: T) => R): R;\n}\n"]}

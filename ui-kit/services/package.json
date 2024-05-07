@@ -1,0 +1,11 @@
+{
+  "main": "../bundles/sofico-framework-ui-kit-services.umd.js",
+  "module": "../fesm2015/sofico-framework-ui-kit-services.js",
+  "es2015": "../fesm2015/sofico-framework-ui-kit-services.js",
+  "esm2015": "../esm2015/services/sofico-framework-ui-kit-services.js",
+  "fesm2015": "../fesm2015/sofico-framework-ui-kit-services.js",
+  "typings": "sofico-framework-ui-kit-services.d.ts",
+  "metadata": "sofico-framework-ui-kit-services.metadata.json",
+  "sideEffects": false,
+  "name": "@sofico-framework/ui-kit/services"
+}

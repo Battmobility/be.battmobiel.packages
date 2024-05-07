@@ -1,0 +1,1 @@
+{"version":3,"file":"find.pipe.d.ts","sources":["find.pipe.d.ts"],"names":[],"mappings":"AAAA;;AACA;AACA;;;AACA","sourcesContent":["import { PipeTransform } from '@angular/core';\nexport declare class FindPipe implements PipeTransform {\n    transform(items: any[], propertyPath: string, toFind: any): any;\n}\n"]}

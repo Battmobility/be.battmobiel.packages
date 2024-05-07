@@ -1,0 +1,31 @@
+{
+  "name": "@sofico-framework/authentication",
+  "version": "62.2.0",
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "peerDependencies": {
+    "@angular/common": "~10.2.0",
+    "@angular/core": "~10.2.0"
+  },
+  "main": "bundles/sofico-framework-authentication.umd.js",
+  "module_ivy_ngcc": "__ivy_ngcc__/fesm2015/sofico-framework-authentication.js",
+  "module": "fesm2015/sofico-framework-authentication.js",
+  "es2015_ivy_ngcc": "__ivy_ngcc__/fesm2015/sofico-framework-authentication.js",
+  "es2015": "fesm2015/sofico-framework-authentication.js",
+  "esm2015": "esm2015/sofico-framework-authentication.js",
+  "fesm2015_ivy_ngcc": "__ivy_ngcc__/fesm2015/sofico-framework-authentication.js",
+  "fesm2015": "fesm2015/sofico-framework-authentication.js",
+  "typings": "sofico-framework-authentication.d.ts",
+  "metadata": "sofico-framework-authentication.metadata.json",
+  "sideEffects": false,
+  "__processed_by_ivy_ngcc__": {
+    "es2015": "11.2.14",
+    "fesm2015": "11.2.14",
+    "module": "11.2.14",
+    "typings": "11.2.14"
+  },
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by NGCC. This is not allowed.\\nPlease delete and rebuild the package, without compiling with NGCC, before attempting to publish.\\nNote that NGCC may have been run by importing this package into another project that is being built with Ivy enabled.\\n')\" && exit 1"
+  }
+}

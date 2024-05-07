@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/sofico-framework-ui-kit-components-overview-list-sort-dropdown.umd.js",
+  "module": "../../fesm2015/sofico-framework-ui-kit-components-overview-list-sort-dropdown.js",
+  "es2015": "../../fesm2015/sofico-framework-ui-kit-components-overview-list-sort-dropdown.js",
+  "esm2015": "../../esm2015/components/overview-list-sort-dropdown/sofico-framework-ui-kit-components-overview-list-sort-dropdown.js",
+  "fesm2015": "../../fesm2015/sofico-framework-ui-kit-components-overview-list-sort-dropdown.js",
+  "typings": "sofico-framework-ui-kit-components-overview-list-sort-dropdown.d.ts",
+  "metadata": "sofico-framework-ui-kit-components-overview-list-sort-dropdown.metadata.json",
+  "sideEffects": false,
+  "name": "@sofico-framework/ui-kit/components/overview-list-sort-dropdown"
+}

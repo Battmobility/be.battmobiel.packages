@@ -1,0 +1,1 @@
+{"version":3,"file":"filter.service.d.ts","sources":["filter.service.d.ts"],"names":[],"mappings":"AAAA;;AACA;AACA;AACA;;;AACA","sourcesContent":["import { FilterSet } from '../types/filter-set.type';\nexport declare class FilterService {\n    filterList<T>(items: T[], activeFilterSet: FilterSet[]): T[];\n    private checkIfIncluded;\n}\n"]}

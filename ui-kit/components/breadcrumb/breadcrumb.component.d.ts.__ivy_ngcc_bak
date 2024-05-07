@@ -1,0 +1,14 @@
+import { Breadcrumb } from './types/breadcrumb.type';
+/**
+ * This component resembles a breadcrumb trail
+ */
+export declare class BreadcrumbComponent {
+    /**
+     * The translation context
+     */
+    tc: string;
+    /**
+     * The breadcrumb configuration
+     */
+    breadcrumbs: Breadcrumb[];
+}

@@ -1,0 +1,9 @@
+import { PipeTransform } from '@angular/core';
+import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
+import { WindowRefService } from '../../services/window-ref.service';
+export declare class BlobToImgSrcPipe implements PipeTransform {
+    private sanitizer;
+    private windowRefService;
+    constructor(sanitizer: DomSanitizer, windowRefService: WindowRefService);
+    transform(blob: Blob): SafeResourceUrl;
+}

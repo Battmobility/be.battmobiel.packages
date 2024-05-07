@@ -1,0 +1,13 @@
+import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
+import { CustomComponentWrapperComponent } from './custom-component-wrapper.component';
+export class CustomComponentWrapperModule {
+}
+CustomComponentWrapperModule.decorators = [
+    { type: NgModule, args: [{
+                imports: [CommonModule],
+                declarations: [CustomComponentWrapperComponent],
+                exports: [CustomComponentWrapperComponent]
+            },] }
+];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY3VzdG9tLWNvbXBvbmVudC13cmFwcGVyLm1vZHVsZS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uLy4uLy4uL3Byb2plY3RzL3NvZmljby1mcmFtZXdvcmsvdWkta2l0L2NvbXBvbmVudHMvY3VzdG9tLWNvbXBvbmVudC13cmFwcGVyL2N1c3RvbS1jb21wb25lbnQtd3JhcHBlci5tb2R1bGUudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxFQUFFLFlBQVksRUFBRSxNQUFNLGlCQUFpQixDQUFDO0FBQy9DLE9BQU8sRUFBRSxRQUFRLEVBQUUsTUFBTSxlQUFlLENBQUM7QUFDekMsT0FBTyxFQUFFLCtCQUErQixFQUFFLE1BQU0sc0NBQXNDLENBQUM7QUFPdkYsTUFBTSxPQUFPLDRCQUE0Qjs7O1lBTHhDLFFBQVEsU0FBQztnQkFDUixPQUFPLEVBQUUsQ0FBQyxZQUFZLENBQUM7Z0JBQ3ZCLFlBQVksRUFBRSxDQUFDLCtCQUErQixDQUFDO2dCQUMvQyxPQUFPLEVBQUUsQ0FBQywrQkFBK0IsQ0FBQzthQUMzQyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IENvbW1vbk1vZHVsZSB9IGZyb20gJ0Bhbmd1bGFyL2NvbW1vbic7XG5pbXBvcnQgeyBOZ01vZHVsZSB9IGZyb20gJ0Bhbmd1bGFyL2NvcmUnO1xuaW1wb3J0IHsgQ3VzdG9tQ29tcG9uZW50V3JhcHBlckNvbXBvbmVudCB9IGZyb20gJy4vY3VzdG9tLWNvbXBvbmVudC13cmFwcGVyLmNvbXBvbmVudCc7XG5cbkBOZ01vZHVsZSh7XG4gIGltcG9ydHM6IFtDb21tb25Nb2R1bGVdLFxuICBkZWNsYXJhdGlvbnM6IFtDdXN0b21Db21wb25lbnRXcmFwcGVyQ29tcG9uZW50XSxcbiAgZXhwb3J0czogW0N1c3RvbUNvbXBvbmVudFdyYXBwZXJDb21wb25lbnRdXG59KVxuZXhwb3J0IGNsYXNzIEN1c3RvbUNvbXBvbmVudFdyYXBwZXJNb2R1bGUge31cbiJdfQ==

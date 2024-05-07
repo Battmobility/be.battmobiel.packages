@@ -1,0 +1,21 @@
+/*
+ * Public API Surface of app-config
+ */
+// pipes
+export * from './lib/pipes/currency-config.pipe';
+export * from './lib/pipes/date-config.pipe';
+export * from './lib/pipes/time-config.pipe';
+export * from './lib/pipes/date-time-config.pipe';
+// services
+export * from './lib/services/config.service';
+// types
+export * from './lib/types/app-config.type';
+export * from './lib/types/config.type';
+export * from './lib/types/auth-config.type';
+export * from './lib/types/base-config.type';
+// modules
+export * from './lib/app-config.module';
+export * from './lib/app-config-utils.module';
+// token
+export * from './lib/app-config.token';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uL3Byb2plY3RzL3NvZmljby1mcmFtZXdvcmsvYXBwLWNvbmZpZy9zcmMvcHVibGljLWFwaS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7R0FFRztBQUVILFFBQVE7QUFDUixjQUFjLGtDQUFrQyxDQUFDO0FBQ2pELGNBQWMsOEJBQThCLENBQUM7QUFDN0MsY0FBYyw4QkFBOEIsQ0FBQztBQUM3QyxjQUFjLG1DQUFtQyxDQUFDO0FBRWxELFdBQVc7QUFDWCxjQUFjLCtCQUErQixDQUFDO0FBRTlDLFFBQVE7QUFDUixjQUFjLDZCQUE2QixDQUFDO0FBQzVDLGNBQWMseUJBQXlCLENBQUM7QUFDeEMsY0FBYyw4QkFBOEIsQ0FBQztBQUM3QyxjQUFjLDhCQUE4QixDQUFDO0FBRTdDLFVBQVU7QUFDVixjQUFjLHlCQUF5QixDQUFDO0FBQ3hDLGNBQWMsK0JBQStCLENBQUM7QUFFOUMsUUFBUTtBQUNSLGNBQWMsd0JBQXdCLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxuICogUHVibGljIEFQSSBTdXJmYWNlIG9mIGFwcC1jb25maWdcbiAqL1xuXG4vLyBwaXBlc1xuZXhwb3J0ICogZnJvbSAnLi9saWIvcGlwZXMvY3VycmVuY3ktY29uZmlnLnBpcGUnO1xuZXhwb3J0ICogZnJvbSAnLi9saWIvcGlwZXMvZGF0ZS1jb25maWcucGlwZSc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9waXBlcy90aW1lLWNvbmZpZy5waXBlJztcbmV4cG9ydCAqIGZyb20gJy4vbGliL3BpcGVzL2RhdGUtdGltZS1jb25maWcucGlwZSc7XG5cbi8vIHNlcnZpY2VzXG5leHBvcnQgKiBmcm9tICcuL2xpYi9zZXJ2aWNlcy9jb25maWcuc2VydmljZSc7XG5cbi8vIHR5cGVzXG5leHBvcnQgKiBmcm9tICcuL2xpYi90eXBlcy9hcHAtY29uZmlnLnR5cGUnO1xuZXhwb3J0ICogZnJvbSAnLi9saWIvdHlwZXMvY29uZmlnLnR5cGUnO1xuZXhwb3J0ICogZnJvbSAnLi9saWIvdHlwZXMvYXV0aC1jb25maWcudHlwZSc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi90eXBlcy9iYXNlLWNvbmZpZy50eXBlJztcblxuLy8gbW9kdWxlc1xuZXhwb3J0ICogZnJvbSAnLi9saWIvYXBwLWNvbmZpZy5tb2R1bGUnO1xuZXhwb3J0ICogZnJvbSAnLi9saWIvYXBwLWNvbmZpZy11dGlscy5tb2R1bGUnO1xuXG4vLyB0b2tlblxuZXhwb3J0ICogZnJvbSAnLi9saWIvYXBwLWNvbmZpZy50b2tlbic7XG4iXX0=

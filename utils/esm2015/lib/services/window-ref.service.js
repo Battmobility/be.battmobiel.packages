@@ -1,0 +1,13 @@
+import { Injectable } from '@angular/core';
+function getWindow() {
+    return window;
+}
+export class WindowRefService {
+    get nativeWindow() {
+        return getWindow();
+    }
+}
+WindowRefService.decorators = [
+    { type: Injectable }
+];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoid2luZG93LXJlZi5zZXJ2aWNlLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vLi4vLi4vLi4vLi4vcHJvamVjdHMvc29maWNvLWZyYW1ld29yay91dGlscy9zcmMvbGliL3NlcnZpY2VzL3dpbmRvdy1yZWYuc2VydmljZS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxPQUFPLEVBQUUsVUFBVSxFQUFFLE1BQU0sZUFBZSxDQUFDO0FBRTNDLFNBQVMsU0FBUztJQUNoQixPQUFPLE1BQU0sQ0FBQztBQUNoQixDQUFDO0FBR0QsTUFBTSxPQUFPLGdCQUFnQjtJQUMzQixJQUFJLFlBQVk7UUFDZCxPQUFPLFNBQVMsRUFBRSxDQUFDO0lBQ3JCLENBQUM7OztZQUpGLFVBQVUiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBJbmplY3RhYmxlIH0gZnJvbSAnQGFuZ3VsYXIvY29yZSc7XG5cbmZ1bmN0aW9uIGdldFdpbmRvdygpOiBhbnkge1xuICByZXR1cm4gd2luZG93O1xufVxuXG5ASW5qZWN0YWJsZSgpXG5leHBvcnQgY2xhc3MgV2luZG93UmVmU2VydmljZSB7XG4gIGdldCBuYXRpdmVXaW5kb3coKTogYW55IHtcbiAgICByZXR1cm4gZ2V0V2luZG93KCk7XG4gIH1cbn1cbiJdfQ==

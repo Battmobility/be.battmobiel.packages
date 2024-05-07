@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/sofico-framework-ui-kit-components-acting-error-messages.umd.js",
+  "module": "../../fesm2015/sofico-framework-ui-kit-components-acting-error-messages.js",
+  "es2015": "../../fesm2015/sofico-framework-ui-kit-components-acting-error-messages.js",
+  "esm2015": "../../esm2015/components/acting-error-messages/sofico-framework-ui-kit-components-acting-error-messages.js",
+  "fesm2015": "../../fesm2015/sofico-framework-ui-kit-components-acting-error-messages.js",
+  "typings": "sofico-framework-ui-kit-components-acting-error-messages.d.ts",
+  "metadata": "sofico-framework-ui-kit-components-acting-error-messages.metadata.json",
+  "sideEffects": false,
+  "name": "@sofico-framework/ui-kit/components/acting-error-messages"
+}

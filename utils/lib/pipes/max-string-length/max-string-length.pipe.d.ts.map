@@ -1,0 +1,1 @@
+{"version":3,"file":"max-string-length.pipe.d.ts","sources":["max-string-length.pipe.d.ts"],"names":[],"mappings":"AAAA;;AACA;AACA;;;AACA","sourcesContent":["import { PipeTransform } from '@angular/core';\nexport declare class MaxStringLengthPipe implements PipeTransform {\n    transform(word: string, maxLength?: number): string;\n}\n"]}

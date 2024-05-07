@@ -1,0 +1,20 @@
+import { DatePipe } from '@angular/common';
+import { Pipe } from '@angular/core';
+import { ConfigService } from '../services/config.service';
+export class DateConfigPipe {
+    constructor(datePipe, configService) {
+        this.datePipe = datePipe;
+        this.configService = configService;
+    }
+    transform(value) {
+        return this.datePipe.transform(value, this.configService.config.app.dateFormat);
+    }
+}
+DateConfigPipe.decorators = [
+    { type: Pipe, args: [{ name: 'sofDateConfig' },] }
+];
+DateConfigPipe.ctorParameters = () => [
+    { type: DatePipe },
+    { type: ConfigService }
+];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZGF0ZS1jb25maWcucGlwZS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uLy4uLy4uL3Byb2plY3RzL3NvZmljby1mcmFtZXdvcmsvYXBwLWNvbmZpZy9zcmMvbGliL3BpcGVzL2RhdGUtY29uZmlnLnBpcGUudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxFQUFFLFFBQVEsRUFBRSxNQUFNLGlCQUFpQixDQUFDO0FBQzNDLE9BQU8sRUFBRSxJQUFJLEVBQWlCLE1BQU0sZUFBZSxDQUFDO0FBQ3BELE9BQU8sRUFBRSxhQUFhLEVBQUUsTUFBTSw0QkFBNEIsQ0FBQztBQUczRCxNQUFNLE9BQU8sY0FBYztJQUN6QixZQUNVLFFBQWtCLEVBQ2xCLGFBQTRCO1FBRDVCLGFBQVEsR0FBUixRQUFRLENBQVU7UUFDbEIsa0JBQWEsR0FBYixhQUFhLENBQWU7SUFDbkMsQ0FBQztJQUVKLFNBQVMsQ0FBQyxLQUFVO1FBQ2xCLE9BQU8sSUFBSSxDQUFDLFFBQVEsQ0FBQyxTQUFTLENBQzVCLEtBQUssRUFDTCxJQUFJLENBQUMsYUFBYSxDQUFDLE1BQU0sQ0FBQyxHQUFHLENBQUMsVUFBVSxDQUN6QyxDQUFDO0lBQ0osQ0FBQzs7O1lBWkYsSUFBSSxTQUFDLEVBQUUsSUFBSSxFQUFFLGVBQWUsRUFBRTs7O1lBSnRCLFFBQVE7WUFFUixhQUFhIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgRGF0ZVBpcGUgfSBmcm9tICdAYW5ndWxhci9jb21tb24nO1xuaW1wb3J0IHsgUGlwZSwgUGlwZVRyYW5zZm9ybSB9IGZyb20gJ0Bhbmd1bGFyL2NvcmUnO1xuaW1wb3J0IHsgQ29uZmlnU2VydmljZSB9IGZyb20gJy4uL3NlcnZpY2VzL2NvbmZpZy5zZXJ2aWNlJztcblxuQFBpcGUoeyBuYW1lOiAnc29mRGF0ZUNvbmZpZycgfSlcbmV4cG9ydCBjbGFzcyBEYXRlQ29uZmlnUGlwZSBpbXBsZW1lbnRzIFBpcGVUcmFuc2Zvcm0ge1xuICBjb25zdHJ1Y3RvcihcbiAgICBwcml2YXRlIGRhdGVQaXBlOiBEYXRlUGlwZSxcbiAgICBwcml2YXRlIGNvbmZpZ1NlcnZpY2U6IENvbmZpZ1NlcnZpY2VcbiAgKSB7fVxuXG4gIHRyYW5zZm9ybSh2YWx1ZTogYW55KTogc3RyaW5nIHtcbiAgICByZXR1cm4gdGhpcy5kYXRlUGlwZS50cmFuc2Zvcm0oXG4gICAgICB2YWx1ZSxcbiAgICAgIHRoaXMuY29uZmlnU2VydmljZS5jb25maWcuYXBwLmRhdGVGb3JtYXRcbiAgICApO1xuICB9XG59XG4iXX0=

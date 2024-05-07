@@ -1,0 +1,32 @@
+import { OnDestroy } from '@angular/core';
+import { Title } from '@angular/platform-browser';
+import { TranslateService } from '@ngx-translate/core';
+import { ObjectService } from '../services/object.service';
+import { PageTitleConfig } from './page-title.config';
+import * as ɵngcc0 from '@angular/core';
+export declare class PageTitleService implements OnDestroy {
+    private title;
+    private translateService;
+    private objectService;
+    private pageTitleConfig;
+    private defaultPageTitleConfig;
+    private config;
+    private labelsAndParams;
+    constructor(title: Title, translateService: TranslateService, objectService: ObjectService, pageTitleConfig: PageTitleConfig);
+    /**
+     * Set the title on the document. (<title>...</title>)
+     * Combination of provided label(s) and tc + '.APP_NAME'
+     * If no label(s) are provided, the label TITLE will be used
+     * @param tc Translation context
+     * @param label label or labels
+     * @param params params for translation
+     */
+    setTitle(tc: string, label?: string | string[], params?: any): void;
+    ngOnDestroy(): void;
+    private getTextFromLabels;
+    private stringArrayNormalize;
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<PageTitleService, [null, null, null, { optional: true; }]>;
+    static ɵprov: ɵngcc0.ɵɵInjectableDef<PageTitleService>;
+}
+
+//# sourceMappingURL=page-title.service.d.ts.map

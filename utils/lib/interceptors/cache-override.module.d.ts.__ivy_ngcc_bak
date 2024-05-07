@@ -1,0 +1,7 @@
+import { ModuleWithProviders, Type } from '@angular/core';
+import { WindowRefService } from '../services/window-ref.service';
+import { CacheOverrideConfigAbstract } from './cache-override-config.abstract';
+export declare class CacheOverrideModule {
+    constructor(parentModule: CacheOverrideModule, windowRefService: WindowRefService, cacheOverrideConfig: CacheOverrideConfigAbstract);
+    static forRoot(cacheOverrideConfig: Type<CacheOverrideConfigAbstract>): ModuleWithProviders<CacheOverrideModule>;
+}

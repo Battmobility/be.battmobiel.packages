@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/sofico-framework-ui-kit-components-input-checkbox-list.umd.js",
+  "module": "../../fesm2015/sofico-framework-ui-kit-components-input-checkbox-list.js",
+  "es2015": "../../fesm2015/sofico-framework-ui-kit-components-input-checkbox-list.js",
+  "esm2015": "../../esm2015/components/input-checkbox-list/sofico-framework-ui-kit-components-input-checkbox-list.js",
+  "fesm2015": "../../fesm2015/sofico-framework-ui-kit-components-input-checkbox-list.js",
+  "typings": "sofico-framework-ui-kit-components-input-checkbox-list.d.ts",
+  "metadata": "sofico-framework-ui-kit-components-input-checkbox-list.metadata.json",
+  "sideEffects": false,
+  "name": "@sofico-framework/ui-kit/components/input-checkbox-list"
+}

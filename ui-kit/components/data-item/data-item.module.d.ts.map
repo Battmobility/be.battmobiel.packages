@@ -1,0 +1,1 @@
+{"version":3,"file":"data-item.module.d.ts","sources":["data-item.module.d.ts"],"names":[],"mappings":";;;AAAA;;;;AACA","sourcesContent":["export declare class DataItemComponentModule {\n}\n"]}

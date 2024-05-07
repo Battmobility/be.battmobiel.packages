@@ -1,0 +1,10 @@
+import { ModuleWithProviders } from '@angular/core';
+import { PageTitleConfig } from './page-title.config';
+export declare class PageTitleModule {
+    constructor(parentModule: PageTitleModule);
+    /**
+     * Optional configuration
+     * @param pageTitleConfig some basic settings used by PageTitleService
+     */
+    static forRoot(pageTitleConfig: PageTitleConfig): ModuleWithProviders<PageTitleModule>;
+}

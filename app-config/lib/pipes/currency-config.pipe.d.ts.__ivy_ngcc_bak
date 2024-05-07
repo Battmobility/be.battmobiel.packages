@@ -1,0 +1,9 @@
+import { CurrencyPipe } from '@angular/common';
+import { PipeTransform } from '@angular/core';
+import { ConfigService } from '../services/config.service';
+export declare class CurrencyConfigPipe implements PipeTransform {
+    private currencyPipe;
+    private configService;
+    constructor(currencyPipe: CurrencyPipe, configService: ConfigService);
+    transform(value: any): string;
+}

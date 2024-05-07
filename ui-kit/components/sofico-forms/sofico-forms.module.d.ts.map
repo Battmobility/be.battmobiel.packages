@@ -1,0 +1,1 @@
+{"version":3,"file":"sofico-forms.module.d.ts","sources":["sofico-forms.module.d.ts"],"names":[],"mappings":";;;;;;AAAA;;;;AACA","sourcesContent":["export declare class SoficoFormsModule {\n}\n"]}

@@ -1,0 +1,14 @@
+import { HttpEvent, HttpHandler, HttpInterceptor, HttpRequest } from '@angular/common/http';
+import { ConfigService } from '@sofico-framework/app-config';
+import { OAuthResourceServerErrorHandler, OAuthStorage } from 'angular-oauth2-oidc';
+import { Observable } from 'rxjs';
+import { AuthenticatedResultService } from '../services/authenticated-result.service';
+export declare class CustomOAuthInterceptor implements HttpInterceptor {
+    private authStorage;
+    private errorHandler;
+    private configService;
+    private authenticatedResultService;
+    constructor(authStorage: OAuthStorage, errorHandler: OAuthResourceServerErrorHandler, configService: ConfigService, authenticatedResultService: AuthenticatedResultService);
+    intercept(req: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>>;
+    private checkUrl;
+}

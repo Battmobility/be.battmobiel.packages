@@ -1,0 +1,4 @@
+import { PipeTransform } from '@angular/core';
+export declare class ExecutePipe<T, R> implements PipeTransform {
+    transform(value: T, func: (x: T) => R): R;
+}

@@ -1,0 +1,7 @@
+import { Overlay, OverlayConfig } from '@angular/cdk/overlay';
+export declare class DialogConfigService {
+    private overlay;
+    positionStrategy: import("@angular/cdk/overlay").GlobalPositionStrategy;
+    overlayConfig: OverlayConfig;
+    constructor(overlay: Overlay);
+}

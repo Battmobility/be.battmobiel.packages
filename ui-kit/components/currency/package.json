@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/sofico-framework-ui-kit-components-currency.umd.js",
+  "module": "../../fesm2015/sofico-framework-ui-kit-components-currency.js",
+  "es2015": "../../fesm2015/sofico-framework-ui-kit-components-currency.js",
+  "esm2015": "../../esm2015/components/currency/sofico-framework-ui-kit-components-currency.js",
+  "fesm2015": "../../fesm2015/sofico-framework-ui-kit-components-currency.js",
+  "typings": "sofico-framework-ui-kit-components-currency.d.ts",
+  "metadata": "sofico-framework-ui-kit-components-currency.metadata.json",
+  "sideEffects": false,
+  "name": "@sofico-framework/ui-kit/components/currency"
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"label-format-fn.pipe.d.ts","sources":["label-format-fn.pipe.d.ts"],"names":[],"mappings":"AAAA;;AACA;AACA;;;AACA","sourcesContent":["import { PipeTransform } from '@angular/core';\nexport declare class LabelFormatFnPipe implements PipeTransform {\n    transform(value: number, fn: (value: number) => string): any;\n}\n"]}

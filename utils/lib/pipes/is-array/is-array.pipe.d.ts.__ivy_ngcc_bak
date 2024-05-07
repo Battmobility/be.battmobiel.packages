@@ -1,0 +1,5 @@
+import { PipeTransform } from '@angular/core';
+export declare class IsArrayPipe implements PipeTransform {
+    constructor();
+    transform<T>(value: any): boolean;
+}

@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/sofico-framework-ui-kit-components-custom-component-wrapper.umd.js",
+  "module": "../../fesm2015/sofico-framework-ui-kit-components-custom-component-wrapper.js",
+  "es2015": "../../fesm2015/sofico-framework-ui-kit-components-custom-component-wrapper.js",
+  "esm2015": "../../esm2015/components/custom-component-wrapper/sofico-framework-ui-kit-components-custom-component-wrapper.js",
+  "fesm2015": "../../fesm2015/sofico-framework-ui-kit-components-custom-component-wrapper.js",
+  "typings": "sofico-framework-ui-kit-components-custom-component-wrapper.d.ts",
+  "metadata": "sofico-framework-ui-kit-components-custom-component-wrapper.metadata.json",
+  "sideEffects": false,
+  "name": "@sofico-framework/ui-kit/components/custom-component-wrapper"
+}

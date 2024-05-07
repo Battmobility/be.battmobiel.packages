@@ -1,0 +1,5 @@
+import { PipeTransform } from '@angular/core';
+export declare class ReplaceAllPipe implements PipeTransform {
+    constructor();
+    transform<T>(text: string, toReplace: string, replaceWith: string): string;
+}

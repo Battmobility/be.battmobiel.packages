@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/sofico-framework-ui-kit-components-dynamic-form.umd.js",
+  "module": "../../fesm2015/sofico-framework-ui-kit-components-dynamic-form.js",
+  "es2015": "../../fesm2015/sofico-framework-ui-kit-components-dynamic-form.js",
+  "esm2015": "../../esm2015/components/dynamic-form/sofico-framework-ui-kit-components-dynamic-form.js",
+  "fesm2015": "../../fesm2015/sofico-framework-ui-kit-components-dynamic-form.js",
+  "typings": "sofico-framework-ui-kit-components-dynamic-form.d.ts",
+  "metadata": "sofico-framework-ui-kit-components-dynamic-form.metadata.json",
+  "sideEffects": false,
+  "name": "@sofico-framework/ui-kit/components/dynamic-form"
+}

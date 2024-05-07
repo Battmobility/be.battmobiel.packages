@@ -1,0 +1,19 @@
+{
+  "name": "@sofico-framework/ui-kit",
+  "version": "62.2.0",
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "peerDependencies": {
+    "@angular/common": "~10.2.0",
+    "@angular/core": "~10.2.0"
+  },
+  "main": "bundles/sofico-framework-ui-kit.umd.js",
+  "module": "fesm2015/sofico-framework-ui-kit.js",
+  "es2015": "fesm2015/sofico-framework-ui-kit.js",
+  "esm2015": "esm2015/sofico-framework-ui-kit.js",
+  "fesm2015": "fesm2015/sofico-framework-ui-kit.js",
+  "typings": "sofico-framework-ui-kit.d.ts",
+  "metadata": "sofico-framework-ui-kit.metadata.json",
+  "sideEffects": false
+}

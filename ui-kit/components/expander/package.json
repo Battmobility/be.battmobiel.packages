@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/sofico-framework-ui-kit-components-expander.umd.js",
+  "module": "../../fesm2015/sofico-framework-ui-kit-components-expander.js",
+  "es2015": "../../fesm2015/sofico-framework-ui-kit-components-expander.js",
+  "esm2015": "../../esm2015/components/expander/sofico-framework-ui-kit-components-expander.js",
+  "fesm2015": "../../fesm2015/sofico-framework-ui-kit-components-expander.js",
+  "typings": "sofico-framework-ui-kit-components-expander.d.ts",
+  "metadata": "sofico-framework-ui-kit-components-expander.metadata.json",
+  "sideEffects": false,
+  "name": "@sofico-framework/ui-kit/components/expander"
+}

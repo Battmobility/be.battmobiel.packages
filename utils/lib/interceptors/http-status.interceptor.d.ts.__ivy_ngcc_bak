@@ -1,0 +1,12 @@
+import { HttpEvent, HttpHandler, HttpInterceptor, HttpRequest } from '@angular/common/http';
+import { Observable } from 'rxjs';
+import { HttpStatusService } from '../services/http-status.service';
+export declare class HttpStatusInterceptor implements HttpInterceptor {
+    private httpStatusService;
+    private loadingCalls;
+    private actingCalls;
+    private showToastsOn;
+    constructor(httpStatusService: HttpStatusService);
+    intercept(req: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>>;
+    private changeStatus;
+}

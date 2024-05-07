@@ -1,0 +1,9 @@
+import { DatePipe } from '@angular/common';
+import { PipeTransform } from '@angular/core';
+import { ConfigService } from '../services/config.service';
+export declare class DateConfigPipe implements PipeTransform {
+    private datePipe;
+    private configService;
+    constructor(datePipe: DatePipe, configService: ConfigService);
+    transform(value: any): string;
+}

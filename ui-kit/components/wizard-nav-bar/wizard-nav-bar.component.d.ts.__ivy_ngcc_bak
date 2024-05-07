@@ -1,0 +1,18 @@
+import { OnChanges, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { Observable } from 'rxjs';
+import { FlowStep } from './types/flow-step.type';
+export declare class WizardNavBarComponent implements OnChanges, OnInit {
+    private router;
+    tc: string;
+    steps: FlowStep[];
+    enableFutureSteps: boolean;
+    steps$: Observable<FlowStep[]>;
+    indexActiveStep$: Observable<number>;
+    private triggerCalc$;
+    constructor(router: Router);
+    ngOnInit(): void;
+    ngOnChanges(): void;
+    blur(event: any): void;
+    private getIndexActiveStep;
+}

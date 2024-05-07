@@ -1,0 +1,6 @@
+import { HttpClientModule } from '@angular/common/http';
+import { ConfigService } from '@sofico-framework/app-config';
+import { WindowRefService } from '@sofico-framework/utils';
+export declare class AuthenticationModule {
+    constructor(parentModule: AuthenticationModule, windowRefService: WindowRefService, httpClient: HttpClientModule, configService: ConfigService);
+}

@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/sofico-framework-ui-kit-components-percentage.umd.js",
+  "module": "../../fesm2015/sofico-framework-ui-kit-components-percentage.js",
+  "es2015": "../../fesm2015/sofico-framework-ui-kit-components-percentage.js",
+  "esm2015": "../../esm2015/components/percentage/sofico-framework-ui-kit-components-percentage.js",
+  "fesm2015": "../../fesm2015/sofico-framework-ui-kit-components-percentage.js",
+  "typings": "sofico-framework-ui-kit-components-percentage.d.ts",
+  "metadata": "sofico-framework-ui-kit-components-percentage.metadata.json",
+  "sideEffects": false,
+  "name": "@sofico-framework/ui-kit/components/percentage"
+}

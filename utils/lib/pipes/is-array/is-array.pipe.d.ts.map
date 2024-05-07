@@ -1,0 +1,1 @@
+{"version":3,"file":"is-array.pipe.d.ts","sources":["is-array.pipe.d.ts"],"names":[],"mappings":"AAAA;;AACA;AACA;AACA;;;AACA","sourcesContent":["import { PipeTransform } from '@angular/core';\nexport declare class IsArrayPipe implements PipeTransform {\n    constructor();\n    transform<T>(value: any): boolean;\n}\n"]}

@@ -1,0 +1,14 @@
+import { EventEmitter } from '@angular/core';
+import { ActingErrorMessage } from '@sofico-framework/utils';
+import { Observable } from 'rxjs';
+export declare class AcknowledgeDialogComponent {
+    headerLabel: string;
+    acknowledgeLabel: string;
+    tc: string;
+    bodyLabel: string;
+    disableHeaderLabelTranslation: boolean;
+    disableBodyLabelTranslation: boolean;
+    acknowledge: EventEmitter<any>;
+    acting$: Observable<boolean>;
+    actingErrorMessages$: Observable<ActingErrorMessage[]>;
+}

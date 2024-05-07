@@ -1,0 +1,4 @@
+export declare class ObjectService {
+    mergeDeep(target: any, ...sources: any[]): any;
+    isObject(item: any): boolean;
+}
