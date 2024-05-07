@@ -1,0 +1,6 @@
+import { FormBuilder } from '@angular/forms';
+import { Router } from '@angular/router';
+import { TranslateService } from '@ngx-translate/core';
+export declare class UtilServicesModule {
+    constructor(parentModule: UtilServicesModule, router: Router, reactiveForms: FormBuilder, translate: TranslateService);
+}

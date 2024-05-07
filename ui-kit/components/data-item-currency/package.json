@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/sofico-framework-ui-kit-components-data-item-currency.umd.js",
+  "module": "../../fesm2015/sofico-framework-ui-kit-components-data-item-currency.js",
+  "es2015": "../../fesm2015/sofico-framework-ui-kit-components-data-item-currency.js",
+  "esm2015": "../../esm2015/components/data-item-currency/sofico-framework-ui-kit-components-data-item-currency.js",
+  "fesm2015": "../../fesm2015/sofico-framework-ui-kit-components-data-item-currency.js",
+  "typings": "sofico-framework-ui-kit-components-data-item-currency.d.ts",
+  "metadata": "sofico-framework-ui-kit-components-data-item-currency.metadata.json",
+  "sideEffects": false,
+  "name": "@sofico-framework/ui-kit/components/data-item-currency"
+}

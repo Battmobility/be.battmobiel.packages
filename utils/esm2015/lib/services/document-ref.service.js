@@ -1,0 +1,13 @@
+import { Injectable } from '@angular/core';
+function getDocument() {
+    return document;
+}
+export class DocumentRefService {
+    get nativeDocument() {
+        return getDocument();
+    }
+}
+DocumentRefService.decorators = [
+    { type: Injectable }
+];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZG9jdW1lbnQtcmVmLnNlcnZpY2UuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi8uLi8uLi9wcm9qZWN0cy9zb2ZpY28tZnJhbWV3b3JrL3V0aWxzL3NyYy9saWIvc2VydmljZXMvZG9jdW1lbnQtcmVmLnNlcnZpY2UudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxFQUFFLFVBQVUsRUFBRSxNQUFNLGVBQWUsQ0FBQztBQUUzQyxTQUFTLFdBQVc7SUFDbEIsT0FBTyxRQUFRLENBQUM7QUFDbEIsQ0FBQztBQUdELE1BQU0sT0FBTyxrQkFBa0I7SUFDN0IsSUFBSSxjQUFjO1FBQ2hCLE9BQU8sV0FBVyxFQUFFLENBQUM7SUFDdkIsQ0FBQzs7O1lBSkYsVUFBVSIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEluamVjdGFibGUgfSBmcm9tICdAYW5ndWxhci9jb3JlJztcblxuZnVuY3Rpb24gZ2V0RG9jdW1lbnQoKTogYW55IHtcbiAgcmV0dXJuIGRvY3VtZW50O1xufVxuXG5ASW5qZWN0YWJsZSgpXG5leHBvcnQgY2xhc3MgRG9jdW1lbnRSZWZTZXJ2aWNlIHtcbiAgZ2V0IG5hdGl2ZURvY3VtZW50KCk6IERvY3VtZW50IHtcbiAgICByZXR1cm4gZ2V0RG9jdW1lbnQoKTtcbiAgfVxufVxuIl19

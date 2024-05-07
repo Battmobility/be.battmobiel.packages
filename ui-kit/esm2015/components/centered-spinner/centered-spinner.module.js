@@ -1,0 +1,14 @@
+import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
+import { LoadingModule } from '@sofico-framework/ui-kit/components/loading';
+import { CenteredSpinnerComponent } from './centered-spinner.component';
+export class CenteredSpinnerModule {
+}
+CenteredSpinnerModule.decorators = [
+    { type: NgModule, args: [{
+                declarations: [CenteredSpinnerComponent],
+                exports: [CenteredSpinnerComponent],
+                imports: [CommonModule, LoadingModule]
+            },] }
+];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY2VudGVyZWQtc3Bpbm5lci5tb2R1bGUuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi8uLi8uLi9wcm9qZWN0cy9zb2ZpY28tZnJhbWV3b3JrL3VpLWtpdC9jb21wb25lbnRzL2NlbnRlcmVkLXNwaW5uZXIvY2VudGVyZWQtc3Bpbm5lci5tb2R1bGUudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxFQUFFLFlBQVksRUFBRSxNQUFNLGlCQUFpQixDQUFDO0FBQy9DLE9BQU8sRUFBRSxRQUFRLEVBQUUsTUFBTSxlQUFlLENBQUM7QUFDekMsT0FBTyxFQUFFLGFBQWEsRUFBRSxNQUFNLDZDQUE2QyxDQUFDO0FBQzVFLE9BQU8sRUFBRSx3QkFBd0IsRUFBRSxNQUFNLDhCQUE4QixDQUFDO0FBT3hFLE1BQU0sT0FBTyxxQkFBcUI7OztZQUxqQyxRQUFRLFNBQUM7Z0JBQ1IsWUFBWSxFQUFFLENBQUMsd0JBQXdCLENBQUM7Z0JBQ3hDLE9BQU8sRUFBRSxDQUFDLHdCQUF3QixDQUFDO2dCQUNuQyxPQUFPLEVBQUUsQ0FBQyxZQUFZLEVBQUUsYUFBYSxDQUFDO2FBQ3ZDIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgQ29tbW9uTW9kdWxlIH0gZnJvbSAnQGFuZ3VsYXIvY29tbW9uJztcbmltcG9ydCB7IE5nTW9kdWxlIH0gZnJvbSAnQGFuZ3VsYXIvY29yZSc7XG5pbXBvcnQgeyBMb2FkaW5nTW9kdWxlIH0gZnJvbSAnQHNvZmljby1mcmFtZXdvcmsvdWkta2l0L2NvbXBvbmVudHMvbG9hZGluZyc7XG5pbXBvcnQgeyBDZW50ZXJlZFNwaW5uZXJDb21wb25lbnQgfSBmcm9tICcuL2NlbnRlcmVkLXNwaW5uZXIuY29tcG9uZW50JztcblxuQE5nTW9kdWxlKHtcbiAgZGVjbGFyYXRpb25zOiBbQ2VudGVyZWRTcGlubmVyQ29tcG9uZW50XSxcbiAgZXhwb3J0czogW0NlbnRlcmVkU3Bpbm5lckNvbXBvbmVudF0sXG4gIGltcG9ydHM6IFtDb21tb25Nb2R1bGUsIExvYWRpbmdNb2R1bGVdXG59KVxuZXhwb3J0IGNsYXNzIENlbnRlcmVkU3Bpbm5lck1vZHVsZSB7fVxuIl19

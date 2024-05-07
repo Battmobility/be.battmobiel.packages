@@ -1,0 +1,6 @@
+import { Observable } from 'rxjs';
+export declare class AuthenticatedResultService {
+    private _authenticatedResult$;
+    get authenticatedResult$(): Observable<boolean>;
+    setAuthenticatedResult(value: boolean): void;
+}

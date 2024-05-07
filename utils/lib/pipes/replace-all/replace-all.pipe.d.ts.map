@@ -1,0 +1,1 @@
+{"version":3,"file":"replace-all.pipe.d.ts","sources":["replace-all.pipe.d.ts"],"names":[],"mappings":"AAAA;;AACA;AACA;AACA;;;AACA","sourcesContent":["import { PipeTransform } from '@angular/core';\nexport declare class ReplaceAllPipe implements PipeTransform {\n    constructor();\n    transform<T>(text: string, toReplace: string, replaceWith: string): string;\n}\n"]}

@@ -1,0 +1,4 @@
+import { PipeTransform } from '@angular/core';
+export declare class MaxStringLengthPipe implements PipeTransform {
+    transform(word: string, maxLength?: number): string;
+}

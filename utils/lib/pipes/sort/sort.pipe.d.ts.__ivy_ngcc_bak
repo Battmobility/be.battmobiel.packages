@@ -1,0 +1,5 @@
+import { PipeTransform } from '@angular/core';
+import { SortingOrderConfig } from '../../types/sorting-order-config.type';
+export declare class SortPipe implements PipeTransform {
+    transform<T>(list: T[], sortingOrderConfig: SortingOrderConfig<T>): T[];
+}

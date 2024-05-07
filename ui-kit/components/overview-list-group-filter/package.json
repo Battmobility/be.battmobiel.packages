@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/sofico-framework-ui-kit-components-overview-list-group-filter.umd.js",
+  "module": "../../fesm2015/sofico-framework-ui-kit-components-overview-list-group-filter.js",
+  "es2015": "../../fesm2015/sofico-framework-ui-kit-components-overview-list-group-filter.js",
+  "esm2015": "../../esm2015/components/overview-list-group-filter/sofico-framework-ui-kit-components-overview-list-group-filter.js",
+  "fesm2015": "../../fesm2015/sofico-framework-ui-kit-components-overview-list-group-filter.js",
+  "typings": "sofico-framework-ui-kit-components-overview-list-group-filter.d.ts",
+  "metadata": "sofico-framework-ui-kit-components-overview-list-group-filter.metadata.json",
+  "sideEffects": false,
+  "name": "@sofico-framework/ui-kit/components/overview-list-group-filter"
+}

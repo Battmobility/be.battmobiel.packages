@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/sofico-framework-ui-kit-components-centered-spinner-on-acting.umd.js",
+  "module": "../../fesm2015/sofico-framework-ui-kit-components-centered-spinner-on-acting.js",
+  "es2015": "../../fesm2015/sofico-framework-ui-kit-components-centered-spinner-on-acting.js",
+  "esm2015": "../../esm2015/components/centered-spinner-on-acting/sofico-framework-ui-kit-components-centered-spinner-on-acting.js",
+  "fesm2015": "../../fesm2015/sofico-framework-ui-kit-components-centered-spinner-on-acting.js",
+  "typings": "sofico-framework-ui-kit-components-centered-spinner-on-acting.d.ts",
+  "metadata": "sofico-framework-ui-kit-components-centered-spinner-on-acting.metadata.json",
+  "sideEffects": false,
+  "name": "@sofico-framework/ui-kit/components/centered-spinner-on-acting"
+}

@@ -1,0 +1,24 @@
+/**
+ * Configuration/builder to build an simplelist config
+ * This object contains configuration regarding initial sorting of an object
+ */
+export class SimpleListConfig {
+    constructor() {
+        this.initialSorting = {
+            prop: null
+        };
+        this.dynamicRowComponent = null;
+    }
+    setSorting(selector, order) {
+        this.initialSorting = {
+            prop: selector,
+            order
+        };
+        return this;
+    }
+    setDynamicRowComponent(component) {
+        this.dynamicRowComponent = component;
+        return this;
+    }
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic2ltcGxlLWxpc3QtY29uZmlnLmNsYXNzLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vLi4vLi4vLi4vLi4vLi4vcHJvamVjdHMvc29maWNvLWZyYW1ld29yay91aS1raXQvY29tcG9uZW50cy9zaW1wbGUtbGlzdC9jbGFzc2VzL3NpbXBsZS1saXN0LWNvbmZpZy5jbGFzcy50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFJQTs7O0dBR0c7QUFDSCxNQUFNLE9BQU8sZ0JBQWdCO0lBQTdCO1FBQ0UsbUJBQWMsR0FBMEI7WUFDdEMsSUFBSSxFQUFFLElBQUk7U0FDWCxDQUFDO1FBQ0Ysd0JBQW1CLEdBQStCLElBQUksQ0FBQztJQW1CekQsQ0FBQztJQWpCQyxVQUFVLENBQ1IsUUFBNEIsRUFDNUIsS0FBcUI7UUFFckIsSUFBSSxDQUFDLGNBQWMsR0FBRztZQUNwQixJQUFJLEVBQUUsUUFBUTtZQUNkLEtBQUs7U0FDbUIsQ0FBQztRQUMzQixPQUFPLElBQUksQ0FBQztJQUNkLENBQUM7SUFFRCxzQkFBc0IsQ0FDcEIsU0FBcUM7UUFFckMsSUFBSSxDQUFDLG1CQUFtQixHQUFHLFNBQVMsQ0FBQztRQUNyQyxPQUFPLElBQUksQ0FBQztJQUNkLENBQUM7Q0FDRiIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IFR5cGUgfSBmcm9tICdAYW5ndWxhci9jb3JlJztcbmltcG9ydCB7IExpc3RJdGVtQ29tcG9uZW50IH0gZnJvbSAnQHNvZmljby1mcmFtZXdvcmsvdWkta2l0L3R5cGVzJztcbmltcG9ydCB7IFNvcnRpbmdPcmRlckNvbmZpZyB9IGZyb20gJ0Bzb2ZpY28tZnJhbWV3b3JrL3V0aWxzJztcblxuLyoqXG4gKiBDb25maWd1cmF0aW9uL2J1aWxkZXIgdG8gYnVpbGQgYW4gc2ltcGxlbGlzdCBjb25maWdcbiAqIFRoaXMgb2JqZWN0IGNvbnRhaW5zIGNvbmZpZ3VyYXRpb24gcmVnYXJkaW5nIGluaXRpYWwgc29ydGluZyBvZiBhbiBvYmplY3RcbiAqL1xuZXhwb3J0IGNsYXNzIFNpbXBsZUxpc3RDb25maWc8VD4ge1xuICBpbml0aWFsU29ydGluZzogU29ydGluZ09yZGVyQ29uZmlnPFQ+ID0ge1xuICAgIHByb3A6IG51bGxcbiAgfTtcbiAgZHluYW1pY1Jvd0NvbXBvbmVudDogVHlwZTxMaXN0SXRlbUNvbXBvbmVudDxUPj4gPSBudWxsO1xuXG4gIHNldFNvcnRpbmcoXG4gICAgc2VsZWN0b3I6IChlbnRpdHk6IFQpID0+IGFueSxcbiAgICBvcmRlcjogJ2FzYycgfCAnZGVzYydcbiAgKTogU2ltcGxlTGlzdENvbmZpZzxUPiB7XG4gICAgdGhpcy5pbml0aWFsU29ydGluZyA9IHtcbiAgICAgIHByb3A6IHNlbGVjdG9yLFxuICAgICAgb3JkZXJcbiAgICB9IGFzIFNvcnRpbmdPcmRlckNvbmZpZzxUPjtcbiAgICByZXR1cm4gdGhpcztcbiAgfVxuXG4gIHNldER5bmFtaWNSb3dDb21wb25lbnQoXG4gICAgY29tcG9uZW50OiBUeXBlPExpc3RJdGVtQ29tcG9uZW50PFQ+PlxuICApOiBTaW1wbGVMaXN0Q29uZmlnPFQ+IHtcbiAgICB0aGlzLmR5bmFtaWNSb3dDb21wb25lbnQgPSBjb21wb25lbnQ7XG4gICAgcmV0dXJuIHRoaXM7XG4gIH1cbn1cbiJdfQ==

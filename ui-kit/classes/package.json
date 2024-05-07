@@ -1,0 +1,11 @@
+{
+  "main": "../bundles/sofico-framework-ui-kit-classes.umd.js",
+  "module": "../fesm2015/sofico-framework-ui-kit-classes.js",
+  "es2015": "../fesm2015/sofico-framework-ui-kit-classes.js",
+  "esm2015": "../esm2015/classes/sofico-framework-ui-kit-classes.js",
+  "fesm2015": "../fesm2015/sofico-framework-ui-kit-classes.js",
+  "typings": "sofico-framework-ui-kit-classes.d.ts",
+  "metadata": "sofico-framework-ui-kit-classes.metadata.json",
+  "sideEffects": false,
+  "name": "@sofico-framework/ui-kit/classes"
+}

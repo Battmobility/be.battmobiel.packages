@@ -1,0 +1,10 @@
+import { ElementRef, EventEmitter } from '@angular/core';
+import { Tab } from './types/tab.type';
+export declare class TabComponent {
+    elementRef: ElementRef;
+    tc: string;
+    tab: Tab;
+    isSelected: boolean;
+    clickTab: EventEmitter<any>;
+    constructor(elementRef: ElementRef);
+}

@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/sofico-framework-ui-kit-components-split-button.umd.js",
+  "module": "../../fesm2015/sofico-framework-ui-kit-components-split-button.js",
+  "es2015": "../../fesm2015/sofico-framework-ui-kit-components-split-button.js",
+  "esm2015": "../../esm2015/components/split-button/sofico-framework-ui-kit-components-split-button.js",
+  "fesm2015": "../../fesm2015/sofico-framework-ui-kit-components-split-button.js",
+  "typings": "sofico-framework-ui-kit-components-split-button.d.ts",
+  "metadata": "sofico-framework-ui-kit-components-split-button.metadata.json",
+  "sideEffects": false,
+  "name": "@sofico-framework/ui-kit/components/split-button"
+}

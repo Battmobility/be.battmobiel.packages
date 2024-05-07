@@ -1,0 +1,19 @@
+import { EventEmitter } from '@angular/core';
+import { ActingErrorMessage } from '@sofico-framework/utils';
+import { Observable } from 'rxjs';
+export declare class ConfirmDialogComponent {
+    headerLabel: string;
+    cancelLabel: string;
+    confirmLabel: string;
+    disableActing: boolean;
+    tc: string;
+    bodyLabel: string;
+    primaryAction: 'confirm' | 'cancel';
+    labelParams: {
+        [key: string]: string;
+    };
+    decline: EventEmitter<any>;
+    confirm: EventEmitter<any>;
+    acting$: Observable<boolean>;
+    actingErrorMessages$: Observable<ActingErrorMessage[]>;
+}

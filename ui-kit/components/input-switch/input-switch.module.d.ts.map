@@ -1,0 +1,1 @@
+{"version":3,"file":"input-switch.module.d.ts","sources":["input-switch.module.d.ts"],"names":[],"mappings":";;;AAAA;;;;AACA","sourcesContent":["export declare class InputSwitchModule {\n}\n"]}

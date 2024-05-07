@@ -1,0 +1,10 @@
+import { CanActivate } from '@angular/router';
+import { Observable } from 'rxjs';
+import { AuthenticatedResultService } from '../services/authenticated-result.service';
+import { AuthenticationService } from '../services/authentication.service';
+export declare class AuthenticatedGuard implements CanActivate {
+    private authenticationService;
+    private authenticatedResultService;
+    constructor(authenticationService: AuthenticationService, authenticatedResultService: AuthenticatedResultService);
+    canActivate(): Observable<boolean>;
+}

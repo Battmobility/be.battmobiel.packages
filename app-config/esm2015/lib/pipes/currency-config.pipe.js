@@ -1,0 +1,20 @@
+import { CurrencyPipe } from '@angular/common';
+import { Pipe } from '@angular/core';
+import { ConfigService } from '../services/config.service';
+export class CurrencyConfigPipe {
+    constructor(currencyPipe, configService) {
+        this.currencyPipe = currencyPipe;
+        this.configService = configService;
+    }
+    transform(value) {
+        return this.currencyPipe.transform(value, this.configService.config.app.currencyCode);
+    }
+}
+CurrencyConfigPipe.decorators = [
+    { type: Pipe, args: [{ name: 'sofCurrencyConfig' },] }
+];
+CurrencyConfigPipe.ctorParameters = () => [
+    { type: CurrencyPipe },
+    { type: ConfigService }
+];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY3VycmVuY3ktY29uZmlnLnBpcGUuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi8uLi8uLi9wcm9qZWN0cy9zb2ZpY28tZnJhbWV3b3JrL2FwcC1jb25maWcvc3JjL2xpYi9waXBlcy9jdXJyZW5jeS1jb25maWcucGlwZS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxPQUFPLEVBQUUsWUFBWSxFQUFFLE1BQU0saUJBQWlCLENBQUM7QUFDL0MsT0FBTyxFQUFFLElBQUksRUFBaUIsTUFBTSxlQUFlLENBQUM7QUFDcEQsT0FBTyxFQUFFLGFBQWEsRUFBRSxNQUFNLDRCQUE0QixDQUFDO0FBRzNELE1BQU0sT0FBTyxrQkFBa0I7SUFDN0IsWUFDVSxZQUEwQixFQUMxQixhQUE0QjtRQUQ1QixpQkFBWSxHQUFaLFlBQVksQ0FBYztRQUMxQixrQkFBYSxHQUFiLGFBQWEsQ0FBZTtJQUNuQyxDQUFDO0lBRUosU0FBUyxDQUFDLEtBQVU7UUFDbEIsT0FBTyxJQUFJLENBQUMsWUFBWSxDQUFDLFNBQVMsQ0FDaEMsS0FBSyxFQUNMLElBQUksQ0FBQyxhQUFhLENBQUMsTUFBTSxDQUFDLEdBQUcsQ0FBQyxZQUFZLENBQzNDLENBQUM7SUFDSixDQUFDOzs7WUFaRixJQUFJLFNBQUMsRUFBRSxJQUFJLEVBQUUsbUJBQW1CLEVBQUU7OztZQUoxQixZQUFZO1lBRVosYUFBYSIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEN1cnJlbmN5UGlwZSB9IGZyb20gJ0Bhbmd1bGFyL2NvbW1vbic7XG5pbXBvcnQgeyBQaXBlLCBQaXBlVHJhbnNmb3JtIH0gZnJvbSAnQGFuZ3VsYXIvY29yZSc7XG5pbXBvcnQgeyBDb25maWdTZXJ2aWNlIH0gZnJvbSAnLi4vc2VydmljZXMvY29uZmlnLnNlcnZpY2UnO1xuXG5AUGlwZSh7IG5hbWU6ICdzb2ZDdXJyZW5jeUNvbmZpZycgfSlcbmV4cG9ydCBjbGFzcyBDdXJyZW5jeUNvbmZpZ1BpcGUgaW1wbGVtZW50cyBQaXBlVHJhbnNmb3JtIHtcbiAgY29uc3RydWN0b3IoXG4gICAgcHJpdmF0ZSBjdXJyZW5jeVBpcGU6IEN1cnJlbmN5UGlwZSxcbiAgICBwcml2YXRlIGNvbmZpZ1NlcnZpY2U6IENvbmZpZ1NlcnZpY2VcbiAgKSB7fVxuXG4gIHRyYW5zZm9ybSh2YWx1ZTogYW55KTogc3RyaW5nIHtcbiAgICByZXR1cm4gdGhpcy5jdXJyZW5jeVBpcGUudHJhbnNmb3JtKFxuICAgICAgdmFsdWUsXG4gICAgICB0aGlzLmNvbmZpZ1NlcnZpY2UuY29uZmlnLmFwcC5jdXJyZW5jeUNvZGVcbiAgICApO1xuICB9XG59XG4iXX0=

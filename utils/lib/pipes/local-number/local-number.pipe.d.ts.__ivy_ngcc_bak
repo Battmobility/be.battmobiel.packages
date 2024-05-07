@@ -1,0 +1,6 @@
+import { PipeTransform } from '@angular/core';
+import { SafeResourceUrl } from '@angular/platform-browser';
+export declare class LocalNumberPipe implements PipeTransform {
+    constructor();
+    transform(num: number, fractionDigits?: number): SafeResourceUrl;
+}

@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/sofico-framework-ui-kit-components-progress-bar.umd.js",
+  "module": "../../fesm2015/sofico-framework-ui-kit-components-progress-bar.js",
+  "es2015": "../../fesm2015/sofico-framework-ui-kit-components-progress-bar.js",
+  "esm2015": "../../esm2015/components/progress-bar/sofico-framework-ui-kit-components-progress-bar.js",
+  "fesm2015": "../../fesm2015/sofico-framework-ui-kit-components-progress-bar.js",
+  "typings": "sofico-framework-ui-kit-components-progress-bar.d.ts",
+  "metadata": "sofico-framework-ui-kit-components-progress-bar.metadata.json",
+  "sideEffects": false,
+  "name": "@sofico-framework/ui-kit/components/progress-bar"
+}

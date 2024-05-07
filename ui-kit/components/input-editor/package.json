@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/sofico-framework-ui-kit-components-input-editor.umd.js",
+  "module": "../../fesm2015/sofico-framework-ui-kit-components-input-editor.js",
+  "es2015": "../../fesm2015/sofico-framework-ui-kit-components-input-editor.js",
+  "esm2015": "../../esm2015/components/input-editor/sofico-framework-ui-kit-components-input-editor.js",
+  "fesm2015": "../../fesm2015/sofico-framework-ui-kit-components-input-editor.js",
+  "typings": "sofico-framework-ui-kit-components-input-editor.d.ts",
+  "metadata": "sofico-framework-ui-kit-components-input-editor.metadata.json",
+  "sideEffects": false,
+  "name": "@sofico-framework/ui-kit/components/input-editor"
+}

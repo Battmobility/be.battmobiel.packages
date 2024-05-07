@@ -1,0 +1,1 @@
+{"version":3,"file":"window-ref.service.d.ts","sources":["window-ref.service.d.ts"],"names":[],"mappings":";AAAA;AACA;;;AACA","sourcesContent":["export declare class WindowRefService {\n    get nativeWindow(): any;\n}\n"]}

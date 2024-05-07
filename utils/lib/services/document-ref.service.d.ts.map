@@ -1,0 +1,1 @@
+{"version":3,"file":"document-ref.service.d.ts","sources":["document-ref.service.d.ts"],"names":[],"mappings":";AAAA;AACA;;;AACA","sourcesContent":["export declare class DocumentRefService {\n    get nativeDocument(): Document;\n}\n"]}

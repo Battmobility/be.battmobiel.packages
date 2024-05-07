@@ -1,0 +1,6 @@
+import { ActivatedRouteSnapshot, CanDeactivate, RouterStateSnapshot } from '@angular/router';
+import { Observable } from 'rxjs';
+import { RoutingAllowedInterface } from '../interfaces/routing-allowed.interface';
+export declare class RoutingAllowedGuard implements CanDeactivate<RoutingAllowedInterface> {
+    canDeactivate(component: RoutingAllowedInterface, currentRoute: ActivatedRouteSnapshot, currentState: RouterStateSnapshot, nextState?: RouterStateSnapshot): Observable<boolean> | boolean;
+}

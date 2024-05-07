@@ -1,0 +1,13 @@
+import { OnDestroy } from '@angular/core';
+import { NgControl } from '@angular/forms';
+import { FormComponent } from '@sofico-framework/ui-kit/components/form';
+import { InputNumberBaseDirective } from '@sofico-framework/ui-kit/components/number-base';
+import { OnSofFocus } from '@sofico-framework/ui-kit/directives/focus';
+export declare class InputCurrencyComponent extends InputNumberBaseDirective implements OnDestroy, OnSofFocus {
+    form: FormComponent;
+    ngControl: NgControl;
+    currencyCode: string;
+    constructor(form: FormComponent, ngControl: NgControl);
+    sofFocus(): void;
+    ngOnDestroy(): void;
+}

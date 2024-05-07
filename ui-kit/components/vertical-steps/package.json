@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/sofico-framework-ui-kit-components-vertical-steps.umd.js",
+  "module": "../../fesm2015/sofico-framework-ui-kit-components-vertical-steps.js",
+  "es2015": "../../fesm2015/sofico-framework-ui-kit-components-vertical-steps.js",
+  "esm2015": "../../esm2015/components/vertical-steps/sofico-framework-ui-kit-components-vertical-steps.js",
+  "fesm2015": "../../fesm2015/sofico-framework-ui-kit-components-vertical-steps.js",
+  "typings": "sofico-framework-ui-kit-components-vertical-steps.d.ts",
+  "metadata": "sofico-framework-ui-kit-components-vertical-steps.metadata.json",
+  "sideEffects": false,
+  "name": "@sofico-framework/ui-kit/components/vertical-steps"
+}

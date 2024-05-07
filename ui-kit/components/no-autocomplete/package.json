@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/sofico-framework-ui-kit-components-no-autocomplete.umd.js",
+  "module": "../../fesm2015/sofico-framework-ui-kit-components-no-autocomplete.js",
+  "es2015": "../../fesm2015/sofico-framework-ui-kit-components-no-autocomplete.js",
+  "esm2015": "../../esm2015/components/no-autocomplete/sofico-framework-ui-kit-components-no-autocomplete.js",
+  "fesm2015": "../../fesm2015/sofico-framework-ui-kit-components-no-autocomplete.js",
+  "typings": "sofico-framework-ui-kit-components-no-autocomplete.d.ts",
+  "metadata": "sofico-framework-ui-kit-components-no-autocomplete.metadata.json",
+  "sideEffects": false,
+  "name": "@sofico-framework/ui-kit/components/no-autocomplete"
+}

@@ -1,0 +1,18 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+
+// Grid breakpoints max
+//
+// Define the maximum dimensions in a desktop first approach at which your layout will change,
+// this is in contrast where bootstrap breakpoints are written in a mobile first approach,
+// adapting to different screen sizes for use in media queries.
+
+$grid-breakpoints-max: (
+  xs: 0,
+  sm: map-get($grid-breakpoints, 'sm')-1,
+  md: map-get($grid-breakpoints, 'md')-1,
+  lg: map-get($grid-breakpoints, 'lg')-1,
+  xl: map-get($grid-breakpoints, 'xl')-1
+);
+
+$elevation-z5: 0px 3px 5px rgba(0, 0, 0, 0.2), 0px 5px 8px rgba(0, 0, 0, 0.14), 0px 1px 14px rgba(0, 0, 0, 0.12);

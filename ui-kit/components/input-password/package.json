@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/sofico-framework-ui-kit-components-input-password.umd.js",
+  "module": "../../fesm2015/sofico-framework-ui-kit-components-input-password.js",
+  "es2015": "../../fesm2015/sofico-framework-ui-kit-components-input-password.js",
+  "esm2015": "../../esm2015/components/input-password/sofico-framework-ui-kit-components-input-password.js",
+  "fesm2015": "../../fesm2015/sofico-framework-ui-kit-components-input-password.js",
+  "typings": "sofico-framework-ui-kit-components-input-password.d.ts",
+  "metadata": "sofico-framework-ui-kit-components-input-password.metadata.json",
+  "sideEffects": false,
+  "name": "@sofico-framework/ui-kit/components/input-password"
+}

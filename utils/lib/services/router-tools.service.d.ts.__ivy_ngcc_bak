@@ -1,0 +1,11 @@
+import { ViewportScroller } from '@angular/common';
+import { NavigationExtras, Router } from '@angular/router';
+export declare class RouterToolsService {
+    private router;
+    private viewportScroller;
+    private position;
+    constructor(router: Router, viewportScroller: ViewportScroller);
+    navigateWithPositionRestore(commands: any[], extras?: NavigationExtras): Promise<boolean | void>;
+    navigateWithPreviousPositionRestore(commands: any[], extras?: NavigationExtras): Promise<boolean | void>;
+    private internalNavigateWithPositionRestore;
+}

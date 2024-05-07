@@ -1,0 +1,8 @@
+import { AfterViewInit, TemplateRef } from '@angular/core';
+import { ToastService } from './services/toast.service';
+export declare class ToastHookComponent implements AfterViewInit {
+    private toastService;
+    template: TemplateRef<any>;
+    constructor(toastService: ToastService);
+    ngAfterViewInit(): void;
+}

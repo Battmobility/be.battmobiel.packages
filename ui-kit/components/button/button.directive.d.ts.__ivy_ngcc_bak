@@ -1,0 +1,33 @@
+export declare class ButtonDirectiveComponent {
+    /**
+     * Whether or not the button is in loading state.
+     * Content of the button will be hidden and a spinner will show.
+     */
+    loading: boolean;
+    /**
+     * Defines which icon must be shown next to the button label.
+     * The icon will be positioned in front of the label.
+     */
+    icon: string;
+    /**
+     * Defines which icon must be shown next to the button label.
+     * The icon will be positioned after the label.
+     */
+    iconSuffix: string;
+    /**
+     * Defines what size the icon will have.
+     * The default size will be 16px.
+     */
+    iconSize: '8' | '12' | '16' | '20' | '24' | '28' | '32' | '48';
+    /**
+     * Defines what size the suffix icon will have.
+     * The default size will be 16px.
+     */
+    iconSuffixSize: '8' | '12' | '16' | '20' | '24' | '28' | '32' | '48';
+    /**
+     * Defines what the button type must be. Defaults to: 'button'.
+     * Possible values are based on the HTML standard.
+     * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button
+     */
+    type: 'button' | 'reset' | 'submit';
+}

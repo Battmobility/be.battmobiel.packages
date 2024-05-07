@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/sofico-framework-ui-kit-components-editable-chip.umd.js",
+  "module": "../../fesm2015/sofico-framework-ui-kit-components-editable-chip.js",
+  "es2015": "../../fesm2015/sofico-framework-ui-kit-components-editable-chip.js",
+  "esm2015": "../../esm2015/components/editable-chip/sofico-framework-ui-kit-components-editable-chip.js",
+  "fesm2015": "../../fesm2015/sofico-framework-ui-kit-components-editable-chip.js",
+  "typings": "sofico-framework-ui-kit-components-editable-chip.d.ts",
+  "metadata": "sofico-framework-ui-kit-components-editable-chip.metadata.json",
+  "sideEffects": false,
+  "name": "@sofico-framework/ui-kit/components/editable-chip"
+}

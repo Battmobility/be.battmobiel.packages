@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/sofico-framework-ui-kit-components-data-item-boolean.umd.js",
+  "module": "../../fesm2015/sofico-framework-ui-kit-components-data-item-boolean.js",
+  "es2015": "../../fesm2015/sofico-framework-ui-kit-components-data-item-boolean.js",
+  "esm2015": "../../esm2015/components/data-item-boolean/sofico-framework-ui-kit-components-data-item-boolean.js",
+  "fesm2015": "../../fesm2015/sofico-framework-ui-kit-components-data-item-boolean.js",
+  "typings": "sofico-framework-ui-kit-components-data-item-boolean.d.ts",
+  "metadata": "sofico-framework-ui-kit-components-data-item-boolean.metadata.json",
+  "sideEffects": false,
+  "name": "@sofico-framework/ui-kit/components/data-item-boolean"
+}

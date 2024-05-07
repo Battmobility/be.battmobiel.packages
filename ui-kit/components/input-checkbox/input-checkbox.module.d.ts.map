@@ -1,0 +1,1 @@
+{"version":3,"file":"input-checkbox.module.d.ts","sources":["input-checkbox.module.d.ts"],"names":[],"mappings":";;;AAAA;;;;AACA","sourcesContent":["export declare class InputCheckboxModule {\n}\n"]}

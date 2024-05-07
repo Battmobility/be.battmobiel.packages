@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/sofico-framework-ui-kit-components-line-chart.umd.js",
+  "module": "../../fesm2015/sofico-framework-ui-kit-components-line-chart.js",
+  "es2015": "../../fesm2015/sofico-framework-ui-kit-components-line-chart.js",
+  "esm2015": "../../esm2015/components/line-chart/sofico-framework-ui-kit-components-line-chart.js",
+  "fesm2015": "../../fesm2015/sofico-framework-ui-kit-components-line-chart.js",
+  "typings": "sofico-framework-ui-kit-components-line-chart.d.ts",
+  "metadata": "sofico-framework-ui-kit-components-line-chart.metadata.json",
+  "sideEffects": false,
+  "name": "@sofico-framework/ui-kit/components/line-chart"
+}

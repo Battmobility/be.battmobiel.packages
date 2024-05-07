@@ -1,0 +1,11 @@
+import { FormBuilder, FormGroup } from '@angular/forms';
+export declare class FormGroupService {
+    private fb;
+    constructor(fb: FormBuilder);
+    createPhoneGroup(defaultCountry?: {
+        countryId: string;
+    }): FormGroup;
+    createAddressGroup(defaultCountry?: {
+        countryId: string;
+    }): FormGroup;
+}

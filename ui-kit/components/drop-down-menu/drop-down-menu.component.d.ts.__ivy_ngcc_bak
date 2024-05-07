@@ -1,0 +1,11 @@
+import { DropDownConfig } from '@sofico-framework/ui-kit/components/drop-down';
+import { DropDownMenuItem } from './types/drop-down-menu-item.type';
+export declare class DropDownMenuComponent {
+    tc: string;
+    isWithinNavBar: boolean;
+    dropDownConfig: DropDownConfig;
+    /**
+     * Both routerLink and click are supported for menu items. They should not be combined though.
+     */
+    menuItems: DropDownMenuItem[];
+}

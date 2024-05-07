@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/sofico-framework-ui-kit-components-data-item-text.umd.js",
+  "module": "../../fesm2015/sofico-framework-ui-kit-components-data-item-text.js",
+  "es2015": "../../fesm2015/sofico-framework-ui-kit-components-data-item-text.js",
+  "esm2015": "../../esm2015/components/data-item-text/sofico-framework-ui-kit-components-data-item-text.js",
+  "fesm2015": "../../fesm2015/sofico-framework-ui-kit-components-data-item-text.js",
+  "typings": "sofico-framework-ui-kit-components-data-item-text.d.ts",
+  "metadata": "sofico-framework-ui-kit-components-data-item-text.metadata.json",
+  "sideEffects": false,
+  "name": "@sofico-framework/ui-kit/components/data-item-text"
+}

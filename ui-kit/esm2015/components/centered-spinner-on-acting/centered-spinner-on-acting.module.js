@@ -1,0 +1,14 @@
+import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
+import { LoadingModule } from '@sofico-framework/ui-kit/components/loading';
+import { CenteredSpinnerOnActingComponent } from './centered-spinner-on-acting.component';
+export class CenteredSpinnerOnActingModule {
+}
+CenteredSpinnerOnActingModule.decorators = [
+    { type: NgModule, args: [{
+                declarations: [CenteredSpinnerOnActingComponent],
+                exports: [CenteredSpinnerOnActingComponent],
+                imports: [CommonModule, LoadingModule]
+            },] }
+];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY2VudGVyZWQtc3Bpbm5lci1vbi1hY3RpbmcubW9kdWxlLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vLi4vLi4vLi4vLi4vcHJvamVjdHMvc29maWNvLWZyYW1ld29yay91aS1raXQvY29tcG9uZW50cy9jZW50ZXJlZC1zcGlubmVyLW9uLWFjdGluZy9jZW50ZXJlZC1zcGlubmVyLW9uLWFjdGluZy5tb2R1bGUudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxFQUFFLFlBQVksRUFBRSxNQUFNLGlCQUFpQixDQUFDO0FBQy9DLE9BQU8sRUFBRSxRQUFRLEVBQUUsTUFBTSxlQUFlLENBQUM7QUFDekMsT0FBTyxFQUFFLGFBQWEsRUFBRSxNQUFNLDZDQUE2QyxDQUFDO0FBQzVFLE9BQU8sRUFBRSxnQ0FBZ0MsRUFBRSxNQUFNLHdDQUF3QyxDQUFDO0FBTzFGLE1BQU0sT0FBTyw2QkFBNkI7OztZQUx6QyxRQUFRLFNBQUM7Z0JBQ1IsWUFBWSxFQUFFLENBQUMsZ0NBQWdDLENBQUM7Z0JBQ2hELE9BQU8sRUFBRSxDQUFDLGdDQUFnQyxDQUFDO2dCQUMzQyxPQUFPLEVBQUUsQ0FBQyxZQUFZLEVBQUUsYUFBYSxDQUFDO2FBQ3ZDIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgQ29tbW9uTW9kdWxlIH0gZnJvbSAnQGFuZ3VsYXIvY29tbW9uJztcbmltcG9ydCB7IE5nTW9kdWxlIH0gZnJvbSAnQGFuZ3VsYXIvY29yZSc7XG5pbXBvcnQgeyBMb2FkaW5nTW9kdWxlIH0gZnJvbSAnQHNvZmljby1mcmFtZXdvcmsvdWkta2l0L2NvbXBvbmVudHMvbG9hZGluZyc7XG5pbXBvcnQgeyBDZW50ZXJlZFNwaW5uZXJPbkFjdGluZ0NvbXBvbmVudCB9IGZyb20gJy4vY2VudGVyZWQtc3Bpbm5lci1vbi1hY3RpbmcuY29tcG9uZW50JztcblxuQE5nTW9kdWxlKHtcbiAgZGVjbGFyYXRpb25zOiBbQ2VudGVyZWRTcGlubmVyT25BY3RpbmdDb21wb25lbnRdLFxuICBleHBvcnRzOiBbQ2VudGVyZWRTcGlubmVyT25BY3RpbmdDb21wb25lbnRdLFxuICBpbXBvcnRzOiBbQ29tbW9uTW9kdWxlLCBMb2FkaW5nTW9kdWxlXVxufSlcbmV4cG9ydCBjbGFzcyBDZW50ZXJlZFNwaW5uZXJPbkFjdGluZ01vZHVsZSB7fVxuIl19

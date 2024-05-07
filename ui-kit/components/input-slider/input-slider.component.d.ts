@@ -1,0 +1,88 @@
+import { ChangeDetectorRef, ElementRef, EventEmitter, OnDestroy, OnInit } from '@angular/core';
+import { ControlValueAccessor, FormBuilder, NgControl } from '@angular/forms';
+import { OnSofFocus } from '@sofico-framework/ui-kit/directives/focus';
+import { NzMarks } from 'ng-zorro-antd/slider';
+import * as ɵngcc0 from '@angular/core';
+export declare class InputSliderComponent implements ControlValueAccessor, OnDestroy, OnSofFocus, OnInit {
+    ngControl: NgControl;
+    private changeDetectorRef;
+    private fb;
+    nzMarks: NzMarks;
+    propagateChange: any;
+    propagateTouch: any;
+    localMinValue: number;
+    localMaxValue: number;
+    localReversed: boolean;
+    localRange: boolean;
+    internalValue: any;
+    calculatedValue: any;
+    /**
+     *  Determines if the input is disabled.
+     */
+    isDisabled: boolean;
+    /**
+     *  Determines if the input will allow two boundary values to be picked.
+     */
+    set range(isRange: boolean);
+    /**
+     * Determines if the selected part of the slider is to the left
+     * or to the right of the selected value
+     * false => |=====O-----|   [default]
+     * true =>  |-----O=====|
+     */
+    set reversed(isReversed: boolean);
+    /**
+     *  Visibility of marks
+     */
+    marks: 'neither' | 'min' | 'max' | 'both';
+    /**
+     * The maximum amount of decimals allowed in the input fields
+     */
+    maxFraction: number;
+    /**
+     * Determines the value of the control.
+     */
+    set value(value: number | [number, number]);
+    /**
+     * Determines the min value of the slider.
+     */
+    set minValue(value: number);
+    /**
+     * Determines the max value of the slider.
+     */
+    set maxValue(value: number);
+    /**
+     * Determines the display format of the values.
+     */
+    set labelFormatFn(fn: (value: number) => string);
+    /**
+     * EventEmitter that will emit the value when changed.
+     */
+    changeValue: EventEmitter<number | [number, number]>;
+    /**
+     * EventEmitter that will emit the value after release.
+     */
+    valueAfterRelease: EventEmitter<number | [number, number]>;
+    inputElement: ElementRef;
+    localValueForm: import("@angular/forms").FormGroup;
+    localLabelFormatFn: (value: number) => string;
+    constructor(ngControl: NgControl, changeDetectorRef: ChangeDetectorRef, fb: FormBuilder);
+    ngOnInit(): void;
+    onLoseFocus(): void;
+    sofFocus(): void;
+    ngOnDestroy(): void;
+    registerOnChange(fn: any): void;
+    registerOnTouched(fn: any): void;
+    writeValue(value: number | [number, number]): void;
+    onChange(value: number | [number, number], isSlider?: boolean): void;
+    onTouch(value: number | [number, number]): void;
+    setDisabledState(value: boolean): void;
+    private calculateValue;
+    private calculateReversedValue;
+    private calculateMarks;
+    private updateLocalValueForm;
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<InputSliderComponent, [{ optional: true; host: true; }, null, null]>;
+    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<InputSliderComponent, "sof-input-slider", never, { "marks": "marks"; "maxFraction": "maxFraction"; "range": "range"; "reversed": "reversed"; "value": "value"; "minValue": "minValue"; "maxValue": "maxValue"; "labelFormatFn": "labelFormatFn"; "isDisabled": "isDisabled"; }, { "changeValue": "changeValue"; "valueAfterRelease": "valueAfterRelease"; }, never, never>;
+}
+
+//# sourceMappingURL=input-slider.component.d.ts.map

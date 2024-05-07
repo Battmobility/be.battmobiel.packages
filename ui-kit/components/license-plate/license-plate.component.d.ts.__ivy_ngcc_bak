@@ -1,0 +1,16 @@
+export declare class LicensePlateComponent {
+    localCountryCode: string;
+    /**
+     * Country code is specified in ISO Alpha 2 format.
+     * ex: BE, NL, DE, etc
+     */
+    set countryCode(value: string);
+    value: string;
+    licensePlateCountryCodes: {
+        be: string;
+        de: string;
+        fr: string;
+        lu: string;
+        nl: string;
+    };
+}

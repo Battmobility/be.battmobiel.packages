@@ -1,0 +1,1 @@
+{"version":3,"file":"object.service.d.ts","sources":["object.service.d.ts"],"names":[],"mappings":";AAAA;AACA;AACA;;;AACA","sourcesContent":["export declare class ObjectService {\n    mergeDeep(target: any, ...sources: any[]): any;\n    isObject(item: any): boolean;\n}\n"]}

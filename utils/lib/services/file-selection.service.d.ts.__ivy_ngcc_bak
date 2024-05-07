@@ -1,0 +1,11 @@
+import { Observable } from 'rxjs';
+import { DocumentRefService } from './document-ref.service';
+export declare class FileSelectionService {
+    private documentRefService;
+    constructor(documentRefService: DocumentRefService);
+    /**
+     * @param acceptedMimeTypes example: [ 'application/pdf', 'image/jpeg', 'image/x-png' ]
+     * @param multiple allow selection of multiple files
+     */
+    getFileSelector(acceptedMimeTypes?: string[], multiple?: boolean): Observable<FileList>;
+}

@@ -1,0 +1,82 @@
+@function tint-color($color, $level) {
+  @return mix(white, $color, $level * $theme-color-interval);
+}
+
+@function shade-color($color, $level) {
+  @return mix(black, $color, $level * $theme-color-interval);
+}
+
+// bootstrap only goes as low as gray-100
+$gray-50: #f5f5f5 !default;
+
+// Defined in Figma.
+$light-border: #F3F4F8;
+
+$primary-35: tint-color($primary, 11) !default;
+$primary-50: tint-color($primary, 10) !default;
+$primary-100: tint-color($primary, 8) !default;
+$primary-200: tint-color($primary, 6) !default;
+$primary-300: tint-color($primary, 4) !default;
+$primary-400: tint-color($primary, 2) !default;
+$primary-500: $primary !default;
+$primary-600: shade-color($primary, 2) !default;
+$primary-700: shade-color($primary, 4) !default;
+$primary-800: shade-color($primary, 6) !default;
+$primary-900: shade-color($primary, 8) !default;
+
+$primary-50-a-04: rgba($primary-50, 0.4) !default;
+
+$secondary-50: tint-color($secondary, 10) !default;
+$secondary-100: tint-color($secondary, 8) !default;
+$secondary-200: tint-color($secondary, 6) !default;
+$secondary-300: tint-color($secondary, 4) !default;
+$secondary-400: tint-color($secondary, 2) !default;
+$secondary-500: $secondary !default;
+$secondary-600: shade-color($secondary, 2) !default;
+$secondary-700: shade-color($secondary, 4) !default;
+$secondary-800: shade-color($secondary, 6) !default;
+$secondary-900: shade-color($secondary, 8) !default;
+
+$danger-50: tint-color($danger, 10) !default;
+$danger-100: tint-color($danger, 8) !default;
+$danger-200: tint-color($danger, 6) !default;
+$danger-300: tint-color($danger, 4) !default;
+$danger-400: tint-color($danger, 2) !default;
+$danger-500: $danger !default;
+$danger-600: shade-color($danger, 2) !default;
+$danger-700: shade-color($danger, 4) !default;
+$danger-800: shade-color($danger, 6) !default;
+$danger-900: shade-color($danger, 8) !default;
+
+$warning-50: tint-color($warning, 10) !default;
+$warning-100: tint-color($warning, 8) !default;
+$warning-200: tint-color($warning, 6) !default;
+$warning-300: tint-color($warning, 4) !default;
+$warning-400: tint-color($warning, 2) !default;
+$warning-500: $warning !default;
+$warning-600: shade-color($warning, 2) !default;
+$warning-700: shade-color($warning, 4) !default;
+$warning-800: shade-color($warning, 6) !default;
+$warning-900: shade-color($warning, 8) !default;
+
+$info-50: tint-color($info, 10) !default;
+$info-100: tint-color($info, 8) !default;
+$info-200: tint-color($info, 6) !default;
+$info-300: tint-color($info, 4) !default;
+$info-400: tint-color($info, 2) !default;
+$info-500: $info !default;
+$info-600: shade-color($info, 2) !default;
+$info-700: shade-color($info, 4) !default;
+$info-800: shade-color($info, 6) !default;
+$info-900: shade-color($info, 8) !default;
+
+$success-50: tint-color($success, 10) !default;
+$success-100: tint-color($success, 8) !default;
+$success-200: tint-color($success, 6) !default;
+$success-300: tint-color($success, 4) !default;
+$success-400: tint-color($success, 2) !default;
+$success-500: $success !default;
+$success-600: shade-color($success, 2) !default;
+$success-700: shade-color($success, 4) !default;
+$success-800: shade-color($success, 6) !default;
+$success-900: shade-color($success, 8) !default;

@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/sofico-framework-ui-kit-components-stacked-bar-chart.umd.js",
+  "module": "../../fesm2015/sofico-framework-ui-kit-components-stacked-bar-chart.js",
+  "es2015": "../../fesm2015/sofico-framework-ui-kit-components-stacked-bar-chart.js",
+  "esm2015": "../../esm2015/components/stacked-bar-chart/sofico-framework-ui-kit-components-stacked-bar-chart.js",
+  "fesm2015": "../../fesm2015/sofico-framework-ui-kit-components-stacked-bar-chart.js",
+  "typings": "sofico-framework-ui-kit-components-stacked-bar-chart.d.ts",
+  "metadata": "sofico-framework-ui-kit-components-stacked-bar-chart.metadata.json",
+  "sideEffects": false,
+  "name": "@sofico-framework/ui-kit/components/stacked-bar-chart"
+}

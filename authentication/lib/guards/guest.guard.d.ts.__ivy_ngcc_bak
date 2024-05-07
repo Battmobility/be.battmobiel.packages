@@ -1,0 +1,13 @@
+import { CanActivate, Router } from '@angular/router';
+import { ConfigService } from '@sofico-framework/app-config';
+import { Observable } from 'rxjs';
+import { AuthenticatedResultService } from '../services/authenticated-result.service';
+import { AuthenticationService } from '../services/authentication.service';
+export declare class GuestGuard implements CanActivate {
+    private authenticationService;
+    private authenticatedResultService;
+    private configService;
+    private router;
+    constructor(authenticationService: AuthenticationService, authenticatedResultService: AuthenticatedResultService, configService: ConfigService, router: Router);
+    canActivate(): Observable<boolean>;
+}

@@ -1,0 +1,14 @@
+import { OnInit } from '@angular/core';
+import { FormControl } from '@angular/forms';
+import { FormComponent } from '@sofico-framework/ui-kit/components/form';
+export declare class InputDirective implements OnInit {
+    form: FormComponent;
+    sofInput: any;
+    formControl: FormControl;
+    set formControlName(name: string);
+    errorMap: {
+        [key: string]: string;
+    };
+    constructor(form: FormComponent);
+    ngOnInit(): void;
+}

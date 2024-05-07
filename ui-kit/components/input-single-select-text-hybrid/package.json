@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/sofico-framework-ui-kit-components-input-single-select-text-hybrid.umd.js",
+  "module": "../../fesm2015/sofico-framework-ui-kit-components-input-single-select-text-hybrid.js",
+  "es2015": "../../fesm2015/sofico-framework-ui-kit-components-input-single-select-text-hybrid.js",
+  "esm2015": "../../esm2015/components/input-single-select-text-hybrid/sofico-framework-ui-kit-components-input-single-select-text-hybrid.js",
+  "fesm2015": "../../fesm2015/sofico-framework-ui-kit-components-input-single-select-text-hybrid.js",
+  "typings": "sofico-framework-ui-kit-components-input-single-select-text-hybrid.d.ts",
+  "metadata": "sofico-framework-ui-kit-components-input-single-select-text-hybrid.metadata.json",
+  "sideEffects": false,
+  "name": "@sofico-framework/ui-kit/components/input-single-select-text-hybrid"
+}

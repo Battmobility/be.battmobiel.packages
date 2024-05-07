@@ -1,0 +1,6 @@
+import { PipeTransform } from '@angular/core';
+export declare class CurrencySymbolPipe implements PipeTransform {
+    protected locale: string;
+    constructor(locale: string);
+    transform(code: string, format?: 'wide' | 'narrow'): string;
+}

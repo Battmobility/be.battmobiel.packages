@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/sofico-framework-ui-kit-components-input-file.umd.js",
+  "module": "../../fesm2015/sofico-framework-ui-kit-components-input-file.js",
+  "es2015": "../../fesm2015/sofico-framework-ui-kit-components-input-file.js",
+  "esm2015": "../../esm2015/components/input-file/sofico-framework-ui-kit-components-input-file.js",
+  "fesm2015": "../../fesm2015/sofico-framework-ui-kit-components-input-file.js",
+  "typings": "sofico-framework-ui-kit-components-input-file.d.ts",
+  "metadata": "sofico-framework-ui-kit-components-input-file.metadata.json",
+  "sideEffects": false,
+  "name": "@sofico-framework/ui-kit/components/input-file"
+}

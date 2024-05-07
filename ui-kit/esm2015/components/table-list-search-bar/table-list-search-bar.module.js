@@ -1,0 +1,15 @@
+import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
+import { TranslateModule } from '@ngx-translate/core';
+import { SearchBarModule } from '@sofico-framework/ui-kit/components/search-bar';
+import { TableListSearchBarComponent } from './table-list-search-bar.component';
+export class TableListSearchBarModule {
+}
+TableListSearchBarModule.decorators = [
+    { type: NgModule, args: [{
+                declarations: [TableListSearchBarComponent],
+                exports: [TableListSearchBarComponent],
+                imports: [CommonModule, TranslateModule, SearchBarModule]
+            },] }
+];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidGFibGUtbGlzdC1zZWFyY2gtYmFyLm1vZHVsZS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uLy4uLy4uL3Byb2plY3RzL3NvZmljby1mcmFtZXdvcmsvdWkta2l0L2NvbXBvbmVudHMvdGFibGUtbGlzdC1zZWFyY2gtYmFyL3RhYmxlLWxpc3Qtc2VhcmNoLWJhci5tb2R1bGUudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxFQUFFLFlBQVksRUFBRSxNQUFNLGlCQUFpQixDQUFDO0FBQy9DLE9BQU8sRUFBRSxRQUFRLEVBQUUsTUFBTSxlQUFlLENBQUM7QUFDekMsT0FBTyxFQUFFLGVBQWUsRUFBRSxNQUFNLHFCQUFxQixDQUFDO0FBQ3RELE9BQU8sRUFBRSxlQUFlLEVBQUUsTUFBTSxnREFBZ0QsQ0FBQztBQUNqRixPQUFPLEVBQUUsMkJBQTJCLEVBQUUsTUFBTSxtQ0FBbUMsQ0FBQztBQU9oRixNQUFNLE9BQU8sd0JBQXdCOzs7WUFMcEMsUUFBUSxTQUFDO2dCQUNSLFlBQVksRUFBRSxDQUFDLDJCQUEyQixDQUFDO2dCQUMzQyxPQUFPLEVBQUUsQ0FBQywyQkFBMkIsQ0FBQztnQkFDdEMsT0FBTyxFQUFFLENBQUMsWUFBWSxFQUFFLGVBQWUsRUFBRSxlQUFlLENBQUM7YUFDMUQiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBDb21tb25Nb2R1bGUgfSBmcm9tICdAYW5ndWxhci9jb21tb24nO1xuaW1wb3J0IHsgTmdNb2R1bGUgfSBmcm9tICdAYW5ndWxhci9jb3JlJztcbmltcG9ydCB7IFRyYW5zbGF0ZU1vZHVsZSB9IGZyb20gJ0BuZ3gtdHJhbnNsYXRlL2NvcmUnO1xuaW1wb3J0IHsgU2VhcmNoQmFyTW9kdWxlIH0gZnJvbSAnQHNvZmljby1mcmFtZXdvcmsvdWkta2l0L2NvbXBvbmVudHMvc2VhcmNoLWJhcic7XG5pbXBvcnQgeyBUYWJsZUxpc3RTZWFyY2hCYXJDb21wb25lbnQgfSBmcm9tICcuL3RhYmxlLWxpc3Qtc2VhcmNoLWJhci5jb21wb25lbnQnO1xuXG5ATmdNb2R1bGUoe1xuICBkZWNsYXJhdGlvbnM6IFtUYWJsZUxpc3RTZWFyY2hCYXJDb21wb25lbnRdLFxuICBleHBvcnRzOiBbVGFibGVMaXN0U2VhcmNoQmFyQ29tcG9uZW50XSxcbiAgaW1wb3J0czogW0NvbW1vbk1vZHVsZSwgVHJhbnNsYXRlTW9kdWxlLCBTZWFyY2hCYXJNb2R1bGVdXG59KVxuZXhwb3J0IGNsYXNzIFRhYmxlTGlzdFNlYXJjaEJhck1vZHVsZSB7fVxuIl19

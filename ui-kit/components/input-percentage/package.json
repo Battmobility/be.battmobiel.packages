@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/sofico-framework-ui-kit-components-input-percentage.umd.js",
+  "module": "../../fesm2015/sofico-framework-ui-kit-components-input-percentage.js",
+  "es2015": "../../fesm2015/sofico-framework-ui-kit-components-input-percentage.js",
+  "esm2015": "../../esm2015/components/input-percentage/sofico-framework-ui-kit-components-input-percentage.js",
+  "fesm2015": "../../fesm2015/sofico-framework-ui-kit-components-input-percentage.js",
+  "typings": "sofico-framework-ui-kit-components-input-percentage.d.ts",
+  "metadata": "sofico-framework-ui-kit-components-input-percentage.metadata.json",
+  "sideEffects": false,
+  "name": "@sofico-framework/ui-kit/components/input-percentage"
+}

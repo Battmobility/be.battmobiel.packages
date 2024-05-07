@@ -1,0 +1,1 @@
+{"version":3,"file":"scroll.service.d.ts","sources":["scroll.service.d.ts"],"names":[],"mappings":"AAAA;;AACA;AACA;AACA;AACA;;;AACA","sourcesContent":["import { WindowRefService } from './window-ref.service';\nexport declare class ScrollService {\n    private windowRefService;\n    constructor(windowRefService: WindowRefService);\n    scrollToTop(): void;\n}\n"]}
